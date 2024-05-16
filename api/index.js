@@ -11,6 +11,7 @@ import loginRoutes from './src/routes/loginRoute/login.js';
 import DietaInputSchema from './src/schema/dietaSchema/DietaSchema.js';
 import ConsultationSchema from './src/schema/consultaSchema/ConsultaSchema.js';
 import NutritionistRegisterSchema from './src/schema/nutritionitSchema/NutritionistRegisterSchema.js';
+import NutritionistUpdateSchema from './src/schema/nutritionitSchema/NutritionistUpdateSchema.js';
 import PatientRegisterSchema from './src/schema/patientSchema/PatientRegisterSchema.js';
 
 const app = express();
@@ -34,6 +35,7 @@ const options = {
         ConsultationRegister: ConsultationSchema,
         NutritionistRegister: NutritionistRegisterSchema,
         PacienteRegister: PatientRegisterSchema,
+        NutritionistUpdate: NutritionistUpdateSchema
       },
     },
   },

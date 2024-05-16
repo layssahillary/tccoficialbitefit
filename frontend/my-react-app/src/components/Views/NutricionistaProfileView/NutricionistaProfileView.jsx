@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { format } from 'date-fns';
 import axios from 'axios';
 import {
   ContainerSection,
@@ -25,6 +26,12 @@ import {
   ContainerEspecialidade,
   ContainerTwo,
   ContainerLinks,
+  EditButton,
+  SaveButton,
+  CancelButton,
+  InputField,
+  WeekdayContainer,
+  Weekday,
 } from './NutricionistaProfileView.styles';
 
 import iconeCalendarioRoxo from '../../../imagens/icones/NutricionistProfileView/calendarioRoxo.png';
@@ -35,18 +42,18 @@ import iconeLinkedin from '../../../imagens/icones/NutricionistProfileView/linke
 
 const ProfileContainer = () => {
   const [nutricionista, setNutricionista] = useState(null);
-  const [patients, setPatients] = useState(null);
+  const [editMode, setEditMode] = useState(false);
+  const [editedData, setEditedData] = useState(null);
+  const [selectedDays, setSelectedDays] = useState([]);
 
   useEffect(() => {
+    // Carregar dados do nutricionista
     const user = JSON.parse(localStorage.getItem('user'));
-    console.log('>>>user', user)
 
     if (user.tipo === 'paciente') {
       axios
         .get('http://localhost:8800/patient/getPatientById/' + user.id)
         .then((response) => {
-          
-          setPatients(response.data);
           const nutricionistaId = response.data[0].nutricionista_id;
 
           axios
@@ -56,6 +63,7 @@ const ProfileContainer = () => {
             )
             .then((nutricionistResponse) => {
               setNutricionista(nutricionistResponse.data[0]);
+              setEditedData(nutricionistResponse.data[0]);
             })
             .catch((error) => {
               console.error('Error fetching nutricionista:', error);
@@ -71,12 +79,65 @@ const ProfileContainer = () => {
         )
         .then((response) => {
           setNutricionista(response.data[0]);
+          setEditedData(response.data[0]);
         })
         .catch((error) => {
           console.error('Error fetching nutricionista:', error);
         });
     }
   }, []);
+
+  const handleEdit = () => {
+    setEditMode(true);
+  };
+
+  const handleCancel = () => {
+    setEditedData(nutricionista);
+    setEditMode(false);
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    const newValue =
+      name === 'dataNascimento' ? format(new Date(value), 'yyyy-MM-dd') : value;
+    setEditedData({ ...editedData, [name]: newValue });
+  };
+
+  const handleSave = () => {
+    const formattedDataNascimento = format(
+      new Date(editedData.dataNascimento),
+      'yyyy-MM-dd',
+    );
+    const dataToSave = {
+      ...editedData,
+      dataNascimento: formattedDataNascimento,
+      diasSemanas: selectedDays.join(','), // Converter array de dias em string separada por vírgula
+    };
+
+    axios
+      .put(
+        'http://localhost:8800/nutricionist/updateNutricionist/' +
+          nutricionista.nutricionista_id,
+        dataToSave,
+      )
+      .then(() => {
+        setNutricionista(dataToSave);
+        setEditMode(false);
+      })
+      .catch((error) => {
+        console.error('Error updating nutricionista:', error);
+      });
+  };
+
+  const toggleDay = (day) => {
+    const isSelected = selectedDays.includes(day);
+    setSelectedDays((prevSelected) =>
+      isSelected
+        ? prevSelected.filter((selectedDay) => selectedDay !== day)
+        : [...prevSelected, day],
+    );
+  };
+
   return (
     <ContainerSection>
       {nutricionista && (
@@ -86,18 +147,45 @@ const ProfileContainer = () => {
             <ContainerInfos>
               <Name>
                 <h2>Nome:</h2>
-                <h1>Maria Silva Oliveira</h1>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={editedData.nome}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <h1>{nutricionista.nome}</h1>
+                )}
               </Name>
 
               <Data>
                 <Information>
                   <h2>CRN:</h2>
-                  <p>{nutricionista.crn}</p>
+                  {editMode ? (
+                    <InputField
+                      type="text"
+                      name="crn"
+                      value={editedData.crn}
+                      onChange={handleChange}
+                    />
+                  ) : (
+                    <p>{nutricionista.crn}</p>
+                  )}
                 </Information>
 
                 <Information>
                   <h2>Telefone:</h2>
-                  <p>{nutricionista.celular}</p>
+                  {editMode ? (
+                    <InputField
+                      type="text"
+                      name="celular"
+                      value={editedData.celular}
+                      onChange={handleChange}
+                    />
+                  ) : (
+                    <p>{nutricionista.celular}</p>
+                  )}
                 </Information>
               </Data>
             </ContainerInfos>
@@ -113,16 +201,43 @@ const ProfileContainer = () => {
               <ContainerTwo>
                 <ContainerEmail>
                   <h3>Email:</h3>
-                  <p>mariasilva@hotmail.com</p>
+                  {editMode ? (
+                    <InputField
+                      type="text"
+                      name="email"
+                      value={editedData.email}
+                      onChange={handleChange}
+                    />
+                  ) : (
+                    <p>{nutricionista.email}</p>
+                  )}
                 </ContainerEmail>
                 <ContainerNascimento>
                   <h3>Data Nascimento:</h3>
-                  <p>08-07-1994</p>
+                  {editMode ? (
+                    <InputField
+                      type="text"
+                      name="dataNascimento"
+                      value={editedData.dataNascimento}
+                      onChange={handleChange}
+                    />
+                  ) : (
+                    <p>{nutricionista.dataNascimento}</p>
+                  )}
                 </ContainerNascimento>
               </ContainerTwo>
               <ContainerEnd>
                 <h3>Endereco:</h3>
-                <p>Rua Ali Perto 819 - Bairro Feliz , Sao Paulo/SP</p>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="endereco"
+                    value={editedData.endereco}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <p>{nutricionista.endereco}</p>
+                )}
               </ContainerEnd>
               <ContainerEspecialidade>
                 <ContainerTitleImg>
@@ -132,7 +247,16 @@ const ProfileContainer = () => {
                   ></ImgBlock>
                   <h2>Especialidades</h2>
                 </ContainerTitleImg>
-                <p>Clinica, esportiva e saude da mulher </p>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="especialidade"
+                    value={editedData.especialidade}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <p>{nutricionista.especialidade}</p>
+                )}
               </ContainerEspecialidade>
             </ContainerBlocksFirst>
             <ContainerBlocks>
@@ -144,36 +268,93 @@ const ProfileContainer = () => {
                   ></ImgBlock>
                   <p>Dias de atendimento::</p>
                 </ContainerTitleImgDaily>
-                <ContainerWeek>
-                  <p>SEG</p>
-                  <p>TER</p>
-                  <p>QUA</p>
-                  <p>QUI</p>
-                  <p>SEX</p>
-                  <p>SAB</p>
-                </ContainerWeek>
+                <WeekdayContainer>
+                  {['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB'].map((day) => (
+                    <Weekday
+                      key={day}
+                      selected={selectedDays.includes(day)}
+                      onClick={() => toggleDay(day)}
+                    >
+                      {day}
+                    </Weekday>
+                  ))}
+                </WeekdayContainer>
                 <ContainerHour>
                   <h3>Hora Inicio:</h3>
-                  <p>8:00h</p>
+                  {editMode ? (
+                    <InputField
+                      type="text"
+                      name="horarioInicio"
+                      value={editedData.horarioInicio}
+                      onChange={handleChange}
+                    />
+                  ) : (
+                    <p>{nutricionista.horarioInicio}</p>
+                  )}
                 </ContainerHour>
                 <ContainerHour>
                   <h3>Hora Fim:</h3>
-                  <p>18:00h</p>
+                  {editMode ? (
+                    <InputField
+                      type="text"
+                      name="horarioFim"
+                      value={editedData.horarioFim}
+                      onChange={handleChange}
+                    />
+                  ) : (
+                    <p>{nutricionista.horarioFim}</p>
+                  )}
                 </ContainerHour>
-                <p>{nutricionista.doencas_cronicas}</p>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="doencas_cronicas"
+                    value={editedData.doencas_cronicas}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <p>{nutricionista.doencas_cronicas}</p>
+                )}
               </FirstBlock>
               <SecondBlock>
                 <ContainerLinks>
                   <img src={iconeInstagram} alt="Dias de atendimento:"></img>
-                  <p>@MariaSilva</p>
+                  {editMode ? (
+                    <InputField
+                      type="text"
+                      name="instagram"
+                      value={editedData.instagram}
+                      onChange={handleChange}
+                    />
+                  ) : (
+                    <p>{nutricionista.instagram}</p>
+                  )}
                 </ContainerLinks>
                 <ContainerLinks>
                   <img src={iconeLinkedin} alt="Dias de atendimento:"></img>
-                  <p>MariaSilva</p>
+                  {editMode ? (
+                    <InputField
+                      type="text"
+                      name="linkedin"
+                      value={editedData.linkedin}
+                      onChange={handleChange}
+                    />
+                  ) : (
+                    <p>{nutricionista.linkedin}</p>
+                  )}
                 </ContainerLinks>
               </SecondBlock>
             </ContainerBlocks>
           </ContainerGrid>
+
+          {editMode ? (
+            <>
+              <SaveButton onClick={handleSave}>Salvar</SaveButton>
+              <CancelButton onClick={handleCancel}>Cancelar</CancelButton>
+            </>
+          ) : (
+            <EditButton onClick={handleEdit}>Editar</EditButton>
+          )}
         </>
       )}
     </ContainerSection>

@@ -91,7 +91,6 @@ export const Information = styled.div`
   }
 `;
 
-
 export const Divider = styled.span`
   width: 100%;
   height: 1px;
@@ -281,5 +280,37 @@ export const ContainerLinks = styled.div`
   &:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     background-color: #ededee;
+  }
+`;
+
+export const InputField = styled.input`
+  /* Estilos para os campos de input */
+`;
+
+export const SaveButton = styled.button`
+  /* Estilos para o botão de salvar */
+`;
+
+export const CancelButton = styled.button`
+  /* Estilos para o botão de cancelar */
+`;
+
+export const EditButton = styled.button`
+  /* Estilos para o botão de editar */
+`;
+
+export const WeekdayContainer = styled.div`
+  display: flex;
+`;
+
+export const Weekday = styled.div`
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: ${({ selected }) => (selected ? '#5DBBFC' : 'transparent')};
+  color: ${({ selected }) => (selected ? 'white' : 'black')};
+
+  &:hover {
+    background-color: ${({ selected }) => (selected ? '#5DBBFC' : '#f0f0f0')};
   }
 `;
