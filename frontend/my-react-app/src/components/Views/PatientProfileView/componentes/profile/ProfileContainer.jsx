@@ -3,7 +3,6 @@ import axios from 'axios';
 import {
   ContainerSection,
   ContainerIntro,
-  Img,
   ContainerInfos,
   Name,
   Data,
@@ -15,7 +14,6 @@ import {
   ContainerGrid,
   ImgBlock,
 } from './ProfileContainer.styles';
-import PatientImage from './imagemPaciente.jsx';
 
 import iconealergias from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/alergias.png';
 import iconebancoSangue from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/banco-de-sangue.png';
@@ -60,24 +58,24 @@ const ProfileContainer = (patient) => {
     checkConsultations(); // Verifica se o paciente tem consultas agendadas
   }, []); // Execute apenas uma vez ao montar o componente
 
-  const upload = async () => {
-    if (!file) {
-      console.log('Nenhum arquivo selecionado.');
-      return;
-    }
+  // const upload = async () => {
+  //   if (!file) {
+  //     console.log('Nenhum arquivo selecionado.');
+  //     return;
+  //   }
   
-    const formData = new FormData();
-    formData.append('file', file);
-    formData.append('pacienteId', pacienteId);
+  //   const formData = new FormData();
+  //   formData.append('file', file);
+  //   formData.append('pacienteId', pacienteId);
   
-    try {
-      const response = await axios.post('http://localhost:3001/upload', formData);
-      console.log('Upload bem sucedido:', response);
-      fetchImage(); // Atualiza a imagem após o upload
-    } catch (error) {
-      console.error('Erro ao fazer upload da imagem:', error);
-    }
-  };
+  //   try {
+  //     const response = await axios.post('http://localhost:3001/upload', formData);
+  //     console.log('Upload bem sucedido:', response);
+  //     fetchImage(); // Atualiza a imagem após o upload
+  //   } catch (error) {
+  //     console.error('Erro ao fazer upload da imagem:', error);
+  //   }
+  // };
 
   return (
     <ContainerSection>
@@ -114,7 +112,7 @@ const ProfileContainer = (patient) => {
               </Data>
             </ContainerInfos>
           </ContainerIntro>
-b
+
           <Divider />
           <ContainerGoal>
             <h2>Objetivo:</h2>
