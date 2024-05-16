@@ -1,0 +1,4 @@
+node_modules/
+api/*.log
+
+node_modules/.cache/default-development/*.pack
