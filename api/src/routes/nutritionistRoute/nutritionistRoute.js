@@ -94,7 +94,7 @@ router.delete('/deleteNutricionistById/:id', deleteNutricionistById);
  *       content:
  *         application/json:
  *           schema:
- *             $ref: '#/components/schemas/NutritionistRegister'
+ *             $ref: '#/components/schemas/NutritionistUpdate'
  *     responses:
  *       '200':
  *         description: Nutricionista atualizado com sucesso.

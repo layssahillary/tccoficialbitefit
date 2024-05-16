@@ -63,7 +63,7 @@ export const updateNutricionistById = async (req, res) => {
   const newData = req.body;
 
   try {
-    const nutricionista = await updateNutricionistByIdService (nutricionistaId, newData);
+    const nutricionista = await updateNutricionistByIdService(nutricionistaId, newData);
     logger.info('updateNutricionistByIdController: Nutricionista atualizado com sucesso');
     res.status(200).json(nutricionista);
   } catch (err) {
