@@ -1,4 +1,4 @@
-# Sistema de Nutricionista e Paciente
+# Sistema de Gestão Nutricional
 
 Este projeto é parte do Trabalho de Conclusão de Curso (TCC) e consiste em um sistema web para nutricionistas acompanharem seus pacientes. Os nutricionistas podem criar dietas, acompanhar a evolução dos pacientes e gerenciar informações relevantes. Por outro lado, os pacientes têm acesso às suas dietas, histórico de evolução e outras informações importantes.
 
