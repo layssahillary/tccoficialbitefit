@@ -2,6 +2,7 @@ import { getPatientsByNutricionistaIdService } from '../../services/patientServi
 import { patientRegisterService } from '../../services/patientService/patientRegisterService.js';
 import { deletePatientByIdService } from '../../services/patientService/deletePatientByIdService.js';
 import { getPatientByIdService } from '../../services/patientService/getPatientByIdService.js';
+import { updatePatientByIdService } from '../../services/patientService/updatePatientByIdService.js';
 
 import winston from 'winston';
 const logger = winston.createLogger({
@@ -65,6 +66,21 @@ export const getPatientById = async (req, res) => {
     const patients = await getPatientByIdService(pacienteId);
     logger.info('getPatientByIdController: Paciente deletado com sucesso');
     res.status(200).json(patients);
+  } catch (err) {
+    logger.error(err.message);
+    res.status(500).json(err.message);
+  }
+};
+
+export const updatePatientById = async (req, res) => {
+  logger.info('updatePatientByIdController');
+  const pacienteId = req.params.id;
+  const newData = req.body;
+
+  try {
+    const paciente = await updatePatientByIdService(pacienteId, newData);
+    logger.info('updatePatientByIdController: Patiente atualizado com sucesso');
+    res.status(200).json(paciente);
   } catch (err) {
     logger.error(err.message);
     res.status(500).json(err.message);

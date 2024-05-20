@@ -4,6 +4,7 @@ import {
   getPatientsByNutricionistaId,
   deletePatientById,
   getPatientById,
+  updatePatientById
 } from '../../controllers/patientController/patientController.js';
 const router = express.Router();
 
@@ -111,5 +112,44 @@ router.delete('/deletePatientById/:id', deletePatientById);
  *             example: { message: 'Erro interno do servidor.' }
  */
 router.get('/getPatientById/:id', getPatientById);
+
+/**
+ * @openapi
+ * /patient/updatePatientById/{id}:
+ *   put:
+ *     summary: Atualiza um paciente pelo ID
+ *     description: Atualiza um paciente com os dados fornecidos pelo ID especificado.
+ *     tags: [Patient]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: integer
+ *         description: ID do Paciente a ser atualizado.
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             $ref: '#/components/schemas/NutritionistUpdate'
+ *     responses:
+ *       '200':
+ *         description: Paciente atualizado com sucesso.
+ *         content:
+ *           application/json:
+ *             example: { message: 'Paciente atualizado com sucesso.' }
+ *       '404':
+ *         description: Paciente não encontrado.
+ *         content:
+ *           application/json:
+ *             example: { message: 'Paciente não encontrado.' }
+ *       '500':
+ *         description: Erro interno do servidor.
+ *         content:
+ *           application/json:
+ *             example: { message: 'Erro interno do servidor.' }
+ */
+router.put('/updatePatientById/:id', updatePatientById);
 
 export default router;

@@ -8,7 +8,7 @@ const logger = winston.createLogger({
     new winston.transports.File({ filename: 'combined.log' }),
   ],
 });
-export const putPatientByIdService = (patientId, updatedPatient) => {
+export const updatePatientByIdService = (patientId, updatedPatient) => {
   return new Promise((resolve, reject) => {
     logger.info('patientUpdateService');
     const {
@@ -103,7 +103,7 @@ export const putPatientByIdService = (patientId, updatedPatient) => {
         logger.error(err.message);
         reject(err);
       } else {
-        logger.info('patientUpdateService: Paciente atualizado com sucesso');
+        logger.info('updatePatientByIdService: Paciente atualizado com sucesso');
         resolve('Paciente atualizado com sucesso');
       }
     });
