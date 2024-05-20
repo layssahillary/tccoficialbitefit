@@ -26,6 +26,30 @@ export const ContainerSection = styled.section`
   }
 `;
 
+export const ContainerButton = styled.div`
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+`;
+export const InputField = styled.input`
+    padding: 10px;
+  font-size: 16px;
+  border: 1px solid #c7ddcc;
+  border-radius: 4px;
+  color: #285430;
+  font-family: 'Nunito Sans';
+
+  &::placeholder {
+    color: #e0e0e0;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem #8fba98;
+    outline: none; 
+  }
+`;
 export const ContainerTitleImg = styled.div`
   display: flex;
   justify-content: space-between;

@@ -284,19 +284,23 @@ export const ContainerLinks = styled.div`
 `;
 
 export const InputField = styled.input`
-  /* Estilos para os campos de input */
-`;
+    padding: 10px;
+  font-size: 16px;
+  border: 1px solid #c7ddcc;
+  border-radius: 4px;
+  color: #285430;
+  font-family: 'Nunito Sans';
 
-export const SaveButton = styled.button`
-  /* Estilos para o botão de salvar */
-`;
+  &::placeholder {
+    color: #e0e0e0;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+  }
 
-export const CancelButton = styled.button`
-  /* Estilos para o botão de cancelar */
-`;
-
-export const EditButton = styled.button`
-  /* Estilos para o botão de editar */
+  &:focus {
+    box-shadow: 0 0 0 0.2rem #8fba98;
+    outline: none; 
+  }
 `;
 
 export const WeekdayContainer = styled.div`
@@ -313,4 +317,9 @@ export const Weekday = styled.div`
   &:hover {
     background-color: ${({ selected }) => (selected ? '#5DBBFC' : '#f0f0f0')};
   }
+`;
+export const ContainerButton = styled.div`
+  display: flex;
+  justify-content: end;
+  gap: 30px;
 `;

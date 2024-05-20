@@ -18,7 +18,6 @@ import {
   FirstBlock,
   SecondBlock,
   ContainerTitleImgDaily,
-  ContainerWeek,
   ContainerHour,
   ContainerEmail,
   ContainerNascimento,
@@ -26,12 +25,10 @@ import {
   ContainerEspecialidade,
   ContainerTwo,
   ContainerLinks,
-  EditButton,
-  SaveButton,
-  CancelButton,
   InputField,
   WeekdayContainer,
   Weekday,
+  ContainerButton,
 } from './NutricionistaProfileView.styles';
 
 import iconeCalendarioRoxo from '../../../imagens/icones/NutricionistProfileView/calendarioRoxo.png';
@@ -39,7 +36,9 @@ import iconeDistintivo from '../../../imagens/icones/NutricionistProfileView/dis
 import iconePerfil from '../../../imagens/icones/NutricionistProfileView/perfil.png';
 import iconeInstagram from '../../../imagens/icones/NutricionistProfileView/instagram.png';
 import iconeLinkedin from '../../../imagens/icones/NutricionistProfileView/linkedin.png';
-
+import { EditButton } from '../../Button/EditButtton/EditButton.jsx';
+import { SaveButton } from '../../Button/SaveButton/SaveButton.jsx';
+import { CancelButton } from '../../Button/CancelButton/CancelButton.jsx';
 const ProfileContainer = () => {
   const [nutricionista, setNutricionista] = useState(null);
   const [editMode, setEditMode] = useState(false);
@@ -305,16 +304,6 @@ const ProfileContainer = () => {
                     <p>{nutricionista.horarioFim}</p>
                   )}
                 </ContainerHour>
-                {editMode ? (
-                  <InputField
-                    type="text"
-                    name="doencas_cronicas"
-                    value={editedData.doencas_cronicas}
-                    onChange={handleChange}
-                  />
-                ) : (
-                  <p>{nutricionista.doencas_cronicas}</p>
-                )}
               </FirstBlock>
               <SecondBlock>
                 <ContainerLinks>
@@ -349,11 +338,15 @@ const ProfileContainer = () => {
 
           {editMode ? (
             <>
-              <SaveButton onClick={handleSave}>Salvar</SaveButton>
-              <CancelButton onClick={handleCancel}>Cancelar</CancelButton>
+              <ContainerButton>
+              <CancelButton handleCancel={handleCancel} />
+              <SaveButton handleSave={handleSave} />
+              </ContainerButton>
             </>
           ) : (
-            <EditButton onClick={handleEdit}>Editar</EditButton>
+            <ContainerButton>
+              <EditButton handleEdit={handleEdit} />
+            </ContainerButton>
           )}
         </>
       )}

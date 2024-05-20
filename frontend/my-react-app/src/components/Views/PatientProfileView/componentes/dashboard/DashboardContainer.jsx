@@ -15,16 +15,14 @@ import {
   FourthImgBlock,
   PContainer,
   ImgPContainer,
-  ButtonContainer,
+  InputField,
+  ContainerButton,
 } from './DashboardContainer.styles';
 
 import {
   calcularIdade,
   calcularTMB,
 } from '../../../../utils/calculos/calculos.js';
-
-import { EditButton } from '../../../../Button/EditButtton/EditButton';
-import DashboardEditContainer from '../dashboard/dashboardEdit/DashboardEditContainer.jsx';
 
 import iconAltura from '../../../../../imagens/icones/iconesPatienteProfileView/iconsDashboard/iconAltura.png';
 import iconBalanca from '../../../../../imagens/icones/iconesPatienteProfileView/iconsDashboard/iconBalanca.png';
@@ -34,16 +32,43 @@ import iconPeso from '../../../../../imagens/icones/iconesPatienteProfileView/ic
 import iconPesoInicial from '../../../../../imagens/icones/iconesPatienteProfileView/iconsDashboard/iconPesoInicial.png';
 import iconResultado from '../../../../../imagens/icones/iconesPatienteProfileView/iconsDashboard/iconResultado.png';
 import iconCircunferencia from '../../../../../imagens/icones/iconesPatienteProfileView/iconsDashboard/circunferencias.png';
-
+import { EditButton } from '../../../../Button/EditButtton/EditButton.jsx';
+import { SaveButton } from '../../../../Button/SaveButton/SaveButton.jsx';
+import { CancelButton } from '../../../../Button/CancelButton/CancelButton.jsx';
 const DashboardContainer = (patient) => {
-  const [isEditing, setIsEditing] = useState(false);
+  const [editMode, setEditMode] = useState(false);
+  const [editedData, setEditedData] = useState(null);
 
   const idade = calcularIdade(patient.dataNascimento);
   const tmb = calcularTMB(patient.peso, patient.altura, idade, patient.genero);
 
+  const handleEdit = () => {
+    setEditMode(true);
+    setEditedData(patient);
+  };
+
+  const handleCancel = () => {
+    setEditedData(null);
+    setEditMode(false);
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setEditedData({ ...editedData, [name]: value });
+  };
+
+  const handleSave = () => {
+    // Aqui você pode implementar a lógica para salvar os dados editados
+    console.log('Dados editados:', editedData);
+
+    // Após salvar os dados, você pode desativar o modo de edição
+    setEditMode(false);
+    setEditedData(null);
+  };
+
   return (
     <>
-      {patient && !isEditing && (
+      {patient && (
         <ContainerSection>
           <h2>Estátisticas de Saude</h2>
 
@@ -57,8 +82,19 @@ const DashboardContainer = (patient) => {
                 <h2>Altura</h2>
               </ContainerTitleImg>
               <DataContainer>
-                <p>{patient.altura}</p>
-                <p>cm</p>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={patient.altura}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    <p>{patient.altura}</p>
+                    <p>cm</p>
+                  </>
+                )}
               </DataContainer>
             </FirstRowBlocks>
             <FirstRowBlocks>
@@ -70,9 +106,20 @@ const DashboardContainer = (patient) => {
                 <h2>Peso</h2>
               </ContainerTitleImg>
               <DataContainer>
-                {' '}
-                <p>{patient.peso}</p>
-                <p>Kg</p>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={patient.peso}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    {' '}
+                    <p>{patient.peso}</p>
+                    <p>Kg</p>
+                  </>
+                )}
               </DataContainer>
             </FirstRowBlocks>
             <FirstRowBlocks>
@@ -84,8 +131,20 @@ const DashboardContainer = (patient) => {
                 <h2>Taxa Metabolica</h2>
               </ContainerTitleImg>
               <DataContainer>
-                <p>{tmb}</p>
-                <p>Kcal</p>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={tmb}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    {' '}
+                    <p>{tmb}</p>
+                    <p>Kcal</p>
+                  </>
+                )}
               </DataContainer>
             </FirstRowBlocks>
           </FirstRowContainer>
@@ -99,8 +158,20 @@ const DashboardContainer = (patient) => {
                 <h2>Evolucao de peso</h2>
               </ContainerSecondRowTitleImg>
               <DataContainer>
-                <p>{patient.altura}</p>
-                <p>Kg / peso inicial</p>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={patient.altura}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    {' '}
+                    <p>{patient.altura}</p>
+                    <p>Kg / peso inicial</p>
+                  </>
+                )}
               </DataContainer>
             </SecondRowBlocks>
             <SecondRowBlocks>
@@ -112,8 +183,20 @@ const DashboardContainer = (patient) => {
                 <h2>Evolucao gordura corporal</h2>
               </ContainerSecondRowTitleImg>
               <DataContainer>
-                <p>{patient.altura}</p>
-                <p>% / gordura corporal</p>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={patient.altura}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    {' '}
+                    <p>{patient.altura}</p>
+                    <p>% / gordura corporal</p>
+                  </>
+                )}
               </DataContainer>
             </SecondRowBlocks>
           </SecondRowContainer>
@@ -127,8 +210,20 @@ const DashboardContainer = (patient) => {
                 <h2>IMC</h2>
               </ContainerTitleImg>
               <DataContainer>
-                <p>{patient.altura}</p>
-                <p>%</p>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={patient.altura}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    {' '}
+                    <p>{patient.altura}</p>
+                    <p>%</p>
+                  </>
+                )}
               </DataContainer>
             </ThirdRowBlocks>
             <ThirdRowBlocks>
@@ -154,45 +249,95 @@ const DashboardContainer = (patient) => {
               ></FourthImgBlock>
               <PContainer>
                 {' '}
-                <p>
-                  {patient.circunferencia_bracos}{' '}
-                  <span style={{ color: '#a1a1a1', fontWeight: '400' }}>
-                    cm
-                  </span>
-                </p>
-                <p>
-                  {patient.circunferencia_cintura}{' '}
-                  <span style={{ color: '#a1a1a1', fontWeight: '400' }}>
-                    cm
-                  </span>
-                </p>
-                <p>
-                  {patient.circunferencia_quadril}{' '}
-                  <span style={{ color: '#a1a1a1', fontWeight: '400' }}>
-                    cm
-                  </span>
-                </p>
-                <p>
-                  {patient.circunferencia_pernas}{' '}
-                  <span style={{ color: '#a1a1a1', fontWeight: '400' }}>
-                    cm
-                  </span>
-                </p>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={patient.circunferencia_bracos}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    {' '}
+                    <p>
+                      {patient.circunferencia_bracos}{' '}
+                      <span style={{ color: '#a1a1a1', fontWeight: '400' }}>
+                        cm
+                      </span>
+                    </p>
+                  </>
+                )}
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={patient.circunferencia_cintura}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    {' '}
+                    <p>
+                      {patient.circunferencia_cintura}{' '}
+                      <span style={{ color: '#a1a1a1', fontWeight: '400' }}>
+                        cm
+                      </span>
+                    </p>
+                  </>
+                )}
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={patient.circunferencia_quadril}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    {' '}
+                    <p>
+                      {patient.circunferencia_quadril}{' '}
+                      <span style={{ color: '#a1a1a1', fontWeight: '400' }}>
+                        cm
+                      </span>
+                    </p>
+                  </>
+                )}
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={patient.circunferencia_pernas}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    {' '}
+                    <p>
+                      {patient.circunferencia_pernas}{' '}
+                      <span style={{ color: '#a1a1a1', fontWeight: '400' }}>
+                        cm
+                      </span>
+                    </p>
+                  </>
+                )}
               </PContainer>
             </ImgPContainer>
           </FourthRowContainer>
-          <ButtonContainer>
-            <EditButton
-              label="Edit"
-              onClick={() => {
-                console.log('Clicou no botão de editar');
-                setIsEditing(true);
-              }}
-            ></EditButton>
-          </ButtonContainer>
+          {editMode ? (
+            <>
+              <ContainerButton>
+              <CancelButton handleCancel={handleCancel} />
+              <SaveButton handleSave={handleSave} />
+              </ContainerButton>
+            </>
+          ) : (
+            <ContainerButton>
+              <EditButton handleEdit={handleEdit} />
+            </ContainerButton>
+          )}
         </ContainerSection>
       )}
-      {isEditing && <DashboardEditContainer />}
     </>
   );
 };
