@@ -142,7 +142,7 @@ const ProfileContainer = () => {
       {nutricionista && (
         <>
           <ContainerIntro>
-            <Img></Img>
+            <Img src={iconePerfil} alt="Icone perfil"></Img>
             <ContainerInfos>
               <Name>
                 <h2>Nome:</h2>
@@ -268,16 +268,15 @@ const ProfileContainer = () => {
                   <p>Dias de atendimento::</p>
                 </ContainerTitleImgDaily>
                 <WeekdayContainer>
-                  {['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB'].map((day) => (
-                    <Weekday
-                      key={day}
-                      selected={selectedDays.includes(day)}
-                      onClick={() => toggleDay(day)}
-                    >
-                      {day}
-                    </Weekday>
-                  ))}
-                </WeekdayContainer>
+  {['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB'].map((day) => (
+    <Weekday
+      key={day}
+      isWorkingDay={nutricionista.diasSemanas.includes(day)}
+    >
+      {day}
+    </Weekday>
+  ))}
+</WeekdayContainer>
                 <ContainerHour>
                   <h3>Hora Inicio:</h3>
                   {editMode ? (
@@ -339,8 +338,8 @@ const ProfileContainer = () => {
           {editMode ? (
             <>
               <ContainerButton>
-              <CancelButton handleCancel={handleCancel} />
-              <SaveButton handleSave={handleSave} />
+                <CancelButton handleCancel={handleCancel} />
+                <SaveButton handleSave={handleSave} />
               </ContainerButton>
             </>
           ) : (

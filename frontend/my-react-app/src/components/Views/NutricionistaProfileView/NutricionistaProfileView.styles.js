@@ -305,21 +305,29 @@ export const InputField = styled.input`
 
 export const WeekdayContainer = styled.div`
   display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
 `;
 
 export const Weekday = styled.div`
-  cursor: pointer;
-  padding: 5px 10px;
+  padding: 10px;
   margin-right: 5px;
-  background-color: ${({ selected }) => (selected ? '#5DBBFC' : 'transparent')};
-  color: ${({ selected }) => (selected ? 'white' : 'black')};
+  border-radius: 10px;
+  background-color: ${({ isWorkingDay }) =>
+    isWorkingDay ? '#7066FF' : 'transparent'};
+  color: ${({ isWorkingDay }) => (isWorkingDay ? 'white' : 'black')};
+  cursor: pointer;
 
   &:hover {
-    background-color: ${({ selected }) => (selected ? '#5DBBFC' : '#f0f0f0')};
+    background-color: ${({ isWorkingDay }) =>
+      isWorkingDay ? '#7066FF' : '#f0f0f0'};
   }
 `;
+
 export const ContainerButton = styled.div`
   display: flex;
   justify-content: end;
   gap: 30px;
 `;
+
+
