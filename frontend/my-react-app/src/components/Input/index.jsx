@@ -1,5 +1,7 @@
 // Input.js
-import React from 'react';
+import React, { useState } from 'react';
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
+
 import {
   Label,
   PasswordInputStyled,
@@ -15,6 +17,8 @@ import {
   CheckboxInput,
   CheckboxLabel,
   SelectStyled,
+  IconWrapper,
+  InputWrapper
 } from './Input.styles';
 
 export const EmailInput = ({ label, placeholder, name, value, onChange }) => {
@@ -32,23 +36,28 @@ export const EmailInput = ({ label, placeholder, name, value, onChange }) => {
   );
 };
 
-export const PasswordInput = ({
-  label,
-  placeholder,
-  name,
-  value,
-  onChange,
-}) => {
+export const PasswordInput = ({ label, placeholder, name, value, onChange }) => {
+  const [showPassword, setShowPassword] = useState(false);
+
+  const toggleShowPassword = () => {
+    setShowPassword((prevShowPassword) => !prevShowPassword);
+  };
+
   return (
     <ContainerInput>
-      <Label htmlFor="password">{label}</Label>
-      <PasswordInputStyled
-        type="password"
-        placeholder={placeholder}
-        name={name}
-        value={value}
-        onChange={onChange}
-      />
+      <Label htmlFor={name}>{label}</Label>
+      <InputWrapper>
+        <PasswordInputStyled
+          type={showPassword ? 'text' : 'password'}
+          placeholder={placeholder}
+          name={name}
+          value={value}
+          onChange={onChange}
+        />
+        <IconWrapper onClick={toggleShowPassword}>
+          {showPassword ? <FaEyeSlash /> : <FaEye />}
+        </IconWrapper>
+      </InputWrapper>
     </ContainerInput>
   );
 };
