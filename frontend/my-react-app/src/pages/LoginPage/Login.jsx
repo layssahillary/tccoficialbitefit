@@ -3,7 +3,6 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-
 import {
   ContainerPrincipal,
   ImagemPrincipal,
@@ -18,18 +17,15 @@ import {
   CadastreSe,
   FormContainer,
 } from './LoginPage.styles';
-
 import { EmailInput, PasswordInput, RadioButton } from '../../components/Input';
-
 import { Button } from '../../components/Button/LongButton/index';
 import ilustracaoLogin from '../../imagens/ilustração/ilustracaoLogin.svg';
 import logoBiteFit from '../../imagens/logoBiteFit/logoBiteFit.svg';
 
 const Login = () => {
-  const [userType, setUserType] = useState('nutricionista'); 
-
+  const [userType, setUserType] = useState('nutricionista');
   const handleUserTypeChange = (event) => {
-    setUserType(event.target.value); 
+    setUserType(event.target.value);
   };
 
   const [formData, setFormData] = useState({
@@ -37,8 +33,8 @@ const Login = () => {
     senha: '',
   });
 
-  const [user, setUser] = useState(null); 
-  const token = useMemo(() => user?.token, [user]); 
+  const [user, setUser] = useState(null);
+  const token = useMemo(() => user?.token, [user]);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -46,6 +42,7 @@ const Login = () => {
       [name]: value,
     });
   };
+
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -57,7 +54,7 @@ const Login = () => {
       });
 
       if (response.data) {
-        localStorage.setItem('user', JSON.stringify(response.data.user)); 
+        localStorage.setItem('user', JSON.stringify(response.data.user));
         toast.success('Login realizado com sucesso!');
         setTimeout(() => {
           navigate('/initalPage');
@@ -104,7 +101,6 @@ const Login = () => {
             value={formData.email}
             onChange={handleChange}
           />
-          {/* {errors.email && <Error>{errors.email}</Error>} */}
           <PasswordInput
             label="Senha:"
             placeholder="* * * * * *"
@@ -121,7 +117,7 @@ const Login = () => {
           </ContainerRegister>
         )}
       </Container>
-      <ToastContainer autoClose={3000} position="bottom-left" />{' '}
+      <ToastContainer autoClose={3000} position="bottom-left" />
     </ContainerPrincipal>
   );
 };

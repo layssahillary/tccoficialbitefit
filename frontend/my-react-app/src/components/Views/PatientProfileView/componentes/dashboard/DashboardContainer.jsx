@@ -19,6 +19,8 @@ import {
   ContainerButton,
 } from './DashboardContainer.styles';
 
+import Chart from './ChartPeso.jsx'; 
+import ChartGordura from './ChartGordura.jsx'; 
 import {
   calcularIdade,
   calcularTMB,
@@ -152,35 +154,10 @@ const DashboardContainer = (patient) => {
             <SecondRowBlocks>
               <ContainerSecondRowTitleImg>
                 <ImgBlock
-                  src={iconPesoInicial}
-                  alt="Icone historico familiar de doencas"
-                ></ImgBlock>
-                <h2>Evolucao de peso</h2>
-              </ContainerSecondRowTitleImg>
-              <DataContainer>
-                {editMode ? (
-                  <InputField
-                    type="text"
-                    name="nome"
-                    value={patient.altura}
-                    onChange={handleChange}
-                  />
-                ) : (
-                  <>
-                    {' '}
-                    <p>{patient.altura}</p>
-                    <p>Kg / peso inicial</p>
-                  </>
-                )}
-              </DataContainer>
-            </SecondRowBlocks>
-            <SecondRowBlocks>
-              <ContainerSecondRowTitleImg>
-                <ImgBlock
                   src={iconGorduraCorporal}
                   alt="Icone historico familiar de doencas"
                 ></ImgBlock>
-                <h2>Evolucao gordura corporal</h2>
+                <h2>% Gordura corporal</h2>
               </ContainerSecondRowTitleImg>
               <DataContainer>
                 {editMode ? (
@@ -193,12 +170,36 @@ const DashboardContainer = (patient) => {
                 ) : (
                   <>
                     {' '}
-                    <p>{patient.altura}</p>
-                    <p>% / gordura corporal</p>
+                    <p><ChartGordura/></p>
                   </>
                 )}
               </DataContainer>
             </SecondRowBlocks>
+
+            <SecondRowBlocks>
+  <ContainerSecondRowTitleImg>
+    <ImgBlock
+      src={iconPesoInicial}
+      alt="Icone historico familiar de doencas"
+    ></ImgBlock>
+    <h2>Evolução de peso</h2>
+  </ContainerSecondRowTitleImg>
+  <DataContainer>
+    {editMode ? (
+      <InputField
+        type="text"
+        name="nome"
+        value={patient.altura}
+        onChange={handleChange}
+      />
+    ) : (
+      <>
+        {' '}
+        <p><Chart /></p>
+      </>
+    )}
+  </DataContainer>
+</SecondRowBlocks>
           </SecondRowContainer>
           <ThirdRowContainer>
             <ThirdRowBlocks>

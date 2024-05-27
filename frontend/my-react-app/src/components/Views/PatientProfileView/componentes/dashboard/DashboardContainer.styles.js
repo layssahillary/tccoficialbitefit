@@ -117,7 +117,7 @@ export const SecondRowBlocks = styled.div`
   background-color: #ffffff;
   border: 1px solid #e8e8e8;
   border-radius: 20px;
-  padding: 20px;
+  padding: 20px; 
 
   p:first-child {
     font-family: 'Mulish';
