@@ -21,6 +21,7 @@ export const Lista = styled.ul`
   display: flex;
   gap: 40px;
   list-style-type: none;
+  align-items: center; /* Ensures items are aligned vertically in the center */
 `;
 
 export const NavItem = styled.li``;
@@ -41,8 +42,71 @@ export const CadastrarPacienteLink = styled(NavLink)`
   color: #285430;
 `;
 
-export const Logout = styled(NavLink)`
-  font-weight: bold;
+export const LogoutButton = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: rgb(255, 65, 65);
+
+  .sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      width: 17px;
+
+      path {
+        fill: white;
+      }
+    }
+  }
+
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+    margin-left: 10px; /* Add margin to create space between svg and text */
+  }
+
+  &:hover {
+    width: 125px;
+    border-radius: 40px;
+    transition-duration: .3s;
+
+    .sign {
+      width: 30%;
+      transition-duration: .3s;
+      padding-left: 20px;
+    }
+
+    .text {
+      opacity: 1;
+      width: 70%;
+      transition-duration: .3s;
+      padding-right: 10px;
+    }
+  }
+
+  &:active {
+    transform: translate(2px, 2px);
+  }
 `;
 
 const customContentStyle = {

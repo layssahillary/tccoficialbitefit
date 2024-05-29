@@ -21,13 +21,12 @@ export const ContainerSection = styled.section`
 
 export const ContainerIntro = styled.div`
   display: flex;
-  gap: 40px;
+  gap: 10px;
 `;
 
-export const Img = styled.div`
+export const Img = styled.img`
   width: 200px;
   height: 150px;
-  background-color: aquamarine;
   border-radius: 10px;
 `;
 

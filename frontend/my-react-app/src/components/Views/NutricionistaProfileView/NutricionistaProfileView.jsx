@@ -31,6 +31,7 @@ import {
   ContainerButton,
 } from './NutricionistaProfileView.styles';
 
+import nutricionistaIcon from '../../../imagens/profile/nutritionist.jpg';
 import iconeCalendarioRoxo from '../../../imagens/icones/NutricionistProfileView/calendarioRoxo.png';
 import iconeDistintivo from '../../../imagens/icones/NutricionistProfileView/distintivo.png';
 import iconePerfil from '../../../imagens/icones/NutricionistProfileView/perfil.png';
@@ -44,10 +45,9 @@ const ProfileContainer = () => {
   const [editMode, setEditMode] = useState(false);
   const [editedData, setEditedData] = useState(null);
   const [selectedDays, setSelectedDays] = useState([]);
-
+  const user = JSON.parse(localStorage.getItem('user'));
   useEffect(() => {
-    // Carregar dados do nutricionista
-    const user = JSON.parse(localStorage.getItem('user'));
+   
 
     if (user.tipo === 'paciente') {
       axios
@@ -98,14 +98,14 @@ const ProfileContainer = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     const newValue =
-      name === 'dataNascimento' ? format(new Date(value), 'yyyy-MM-dd') : value;
+      name === 'dataNascimento' ? format(new Date(value), 'dd-MM-yyyy') : value;
     setEditedData({ ...editedData, [name]: newValue });
   };
 
   const handleSave = () => {
     const formattedDataNascimento = format(
       new Date(editedData.dataNascimento),
-      'yyyy-MM-dd',
+      'dd-MM-yyyy',
     );
     const dataToSave = {
       ...editedData,
@@ -136,13 +136,12 @@ const ProfileContainer = () => {
         : [...prevSelected, day],
     );
   };
-
   return (
     <ContainerSection>
       {nutricionista && (
         <>
           <ContainerIntro>
-            <Img src={iconePerfil} alt="Icone perfil"></Img>
+            <Img src={nutricionistaIcon} alt="Icone perfil"></Img>
             <ContainerInfos>
               <Name>
                 <h2>Nome:</h2>
@@ -268,15 +267,15 @@ const ProfileContainer = () => {
                   <p>Dias de atendimento::</p>
                 </ContainerTitleImgDaily>
                 <WeekdayContainer>
-  {['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB'].map((day) => (
-    <Weekday
-      key={day}
-      isWorkingDay={nutricionista.diasSemanas.includes(day)}
-    >
-      {day}
-    </Weekday>
-  ))}
-</WeekdayContainer>
+                  {['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB'].map((day) => (
+                    <Weekday
+                      key={day}
+                      isWorkingDay={nutricionista.diasSemanas.includes(day)}
+                    >
+                      {day}
+                    </Weekday>
+                  ))}
+                </WeekdayContainer>
                 <ContainerHour>
                   <h3>Hora Inicio:</h3>
                   {editMode ? (
@@ -343,9 +342,13 @@ const ProfileContainer = () => {
               </ContainerButton>
             </>
           ) : (
-            <ContainerButton>
-              <EditButton handleEdit={handleEdit} />
-            </ContainerButton>
+            <>
+            {user.tipo === 'nutricionista' && !editMode && (
+              <ContainerButton>
+                <EditButton handleEdit={handleEdit} />
+              </ContainerButton>
+            )}
+            </>
           )}
         </>
       )}

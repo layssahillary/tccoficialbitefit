@@ -54,7 +54,7 @@ export const Name = styled.div`
   }
 
   h1 {
-    color: #777777;
+    color: #285430;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -73,7 +73,7 @@ export const Information = styled.div`
   }
 
   h2 {
-    color: #777777;
+    color: #285430;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -92,12 +92,12 @@ export const ContainerGoal = styled.div`
   p {
     font-family: 'Mulish';
     font-size: 16px;
-    color: #7d7987;
+    color: #285430;
     text-align: justify;
   }
 
   h2 {
-    color: #777777;
+    color: #285430;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -134,7 +134,7 @@ export const ContainerBlocks = styled.div`
   }
 
   h2 {
-    color: #777777;
+    color: #285430;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -154,4 +154,10 @@ export const ContainerTitleImg = styled.div`
 
 export const ImgBlock = styled.img`
   width: 40px;
+`;
+
+export const ImgProfile = styled.img`
+  width: 150px;
+  height: auto;
+  border-radius: 15%;
 `;

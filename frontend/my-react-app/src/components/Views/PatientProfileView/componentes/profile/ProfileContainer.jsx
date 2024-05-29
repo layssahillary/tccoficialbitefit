@@ -13,8 +13,10 @@ import {
   ContainerTitleImg,
   ContainerGrid,
   ImgBlock,
+  ImgProfile
 } from './ProfileContainer.styles';
 
+import pacienteIcon from '../../../../../imagens/profile/patient.jpg';
 import iconealergias from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/alergias.png';
 import iconebancoSangue from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/banco-de-sangue.png';
 import iconebodyBuilding from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/body-building.png';
@@ -82,6 +84,7 @@ const ProfileContainer = (patient) => {
       {patient && (
         <>
           <ContainerIntro>
+            <ImgProfile src={pacienteIcon} alt="paciente perfil" ></ImgProfile>
           {/* <input type="file" onChange={(e) => setFile(e.target.files[0])} />
 
       <button onClick={upload}>Upload</button> */}

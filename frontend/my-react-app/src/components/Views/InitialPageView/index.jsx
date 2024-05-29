@@ -44,7 +44,7 @@ const InitialPageView = () => {
             <PhraseSection>
             Explore uma abordagem inovadora para alimentação saudável, onde a facilidade e a criatividade se encontram em uma plataforma intuitiva e acessível.
             </PhraseSection>
-            <RoundButton href="/nutricionistaCadastro" label={'Cadastre-se'} />
+            <RoundButton href="/nutricionistaCadastro" label={'Cadastrar Paciente'} />
           </ContainerSectionChild>
           <SectionImg src={ilustracaoSection} alt="Logo"></SectionImg>
         </ContainerSections>

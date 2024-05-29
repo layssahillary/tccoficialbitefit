@@ -19,8 +19,8 @@ import {
   ContainerButton,
 } from './DashboardContainer.styles';
 
-import Chart from './ChartPeso.jsx'; 
-import ChartGordura from './ChartGordura.jsx'; 
+import Chart from './ChartPeso.jsx';
+import ChartGordura from './ChartGordura.jsx';
 import {
   calcularIdade,
   calcularTMB,
@@ -170,36 +170,40 @@ const DashboardContainer = (patient) => {
                 ) : (
                   <>
                     {' '}
-                    <p><ChartGordura/></p>
+                    <p>
+                      <ChartGordura />
+                    </p>
                   </>
                 )}
               </DataContainer>
             </SecondRowBlocks>
 
             <SecondRowBlocks>
-  <ContainerSecondRowTitleImg>
-    <ImgBlock
-      src={iconPesoInicial}
-      alt="Icone historico familiar de doencas"
-    ></ImgBlock>
-    <h2>Evolução de peso</h2>
-  </ContainerSecondRowTitleImg>
-  <DataContainer>
-    {editMode ? (
-      <InputField
-        type="text"
-        name="nome"
-        value={patient.altura}
-        onChange={handleChange}
-      />
-    ) : (
-      <>
-        {' '}
-        <p><Chart /></p>
-      </>
-    )}
-  </DataContainer>
-</SecondRowBlocks>
+              <ContainerSecondRowTitleImg>
+                <ImgBlock
+                  src={iconPesoInicial}
+                  alt="Icone historico familiar de doencas"
+                ></ImgBlock>
+                <h2>Evolução de peso</h2>
+              </ContainerSecondRowTitleImg>
+              <DataContainer>
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="nome"
+                    value={patient.altura}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    {' '}
+                    <p>
+                      <Chart />
+                    </p>
+                  </>
+                )}
+              </DataContainer>
+            </SecondRowBlocks>
           </SecondRowContainer>
           <ThirdRowContainer>
             <ThirdRowBlocks>
@@ -221,7 +225,7 @@ const DashboardContainer = (patient) => {
                 ) : (
                   <>
                     {' '}
-                    <p>{patient.altura}</p>
+                    <p>28.67</p>
                     <p>%</p>
                   </>
                 )}
@@ -236,8 +240,8 @@ const DashboardContainer = (patient) => {
                 <h2 style={{ color: 'green' }}>Resultado IMC</h2>
               </ContainerTitleImg>
               <DataContainer>
-                <p>{patient.altura}</p>
-                <p>Ana silva esta com IMC NORMAL</p>
+                
+                <p>{patient.nome} esta com IMC NORMAL</p>
               </DataContainer>
             </ThirdRowBlocks>
           </ThirdRowContainer>
@@ -328,8 +332,8 @@ const DashboardContainer = (patient) => {
           {editMode ? (
             <>
               <ContainerButton>
-              <CancelButton handleCancel={handleCancel} />
-              <SaveButton handleSave={handleSave} />
+                <CancelButton handleCancel={handleCancel} />
+                <SaveButton handleSave={handleSave} />
               </ContainerButton>
             </>
           ) : (

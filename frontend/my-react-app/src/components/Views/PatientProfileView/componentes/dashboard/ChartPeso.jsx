@@ -8,7 +8,7 @@ class WeightChart extends React.Component {
     this.state = {
       series: [{
         name: 'Peso',
-        data: [80, 78, 75, 73, 72, 70, 68, 67, 65, 63]
+        data: [110, 108, 104, 100, 99, 94, 100, 97, 95, 94]
       }],
       options: {
         chart: {
