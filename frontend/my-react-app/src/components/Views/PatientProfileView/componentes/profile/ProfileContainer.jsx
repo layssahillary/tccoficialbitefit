@@ -13,7 +13,7 @@ import {
   ContainerTitleImg,
   ContainerGrid,
   ImgBlock,
-  ImgProfile
+  ImgProfile,
 } from './ProfileContainer.styles';
 
 import pacienteIcon from '../../../../../imagens/profile/patient.jpg';
@@ -27,24 +27,15 @@ import iconenutricao from '../../../../../imagens/icones/iconesPatienteProfileVi
 import iconerestricao from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/restricao.png';
 
 const ProfileContainer = (patient) => {
-  const [file, setFile] = useState(null);
-  const [imageUrl, setImageUrl] = useState(null);
   const [hasConsultation, setHasConsultation] = useState(false); // Estado para armazenar se o paciente tem consulta agendada
   const user = JSON.parse(localStorage.getItem('user'));
   const pacienteId = user.id;
 
-  const fetchImage = async () => {
-    try {
-      const response = await axios.get(`http://localhost:3001/paciente/${pacienteId}/imagem`);
-      setImageUrl(response.data.imageUrl);
-    } catch (error) {
-      console.error('Erro ao recuperar a imagem do paciente:', error);
-    }
-  };
-
   const checkConsultations = async () => {
     try {
-      const response = await axios.get(`http://localhost:8800/consultation/getConsultasByPacienteId/${pacienteId}`);
+      const response = await axios.get(
+        `http://localhost:8800/consultation/getConsultasByPacienteId/${pacienteId}`,
+      );
       if (response.data.length > 0) {
         setHasConsultation(true);
       } else {
@@ -55,39 +46,12 @@ const ProfileContainer = (patient) => {
     }
   };
 
-  useEffect(() => {
-    fetchImage();
-    checkConsultations(); // Verifica se o paciente tem consultas agendadas
-  }, []); // Execute apenas uma vez ao montar o componente
-
-  // const upload = async () => {
-  //   if (!file) {
-  //     console.log('Nenhum arquivo selecionado.');
-  //     return;
-  //   }
-  
-  //   const formData = new FormData();
-  //   formData.append('file', file);
-  //   formData.append('pacienteId', pacienteId);
-  
-  //   try {
-  //     const response = await axios.post('http://localhost:3001/upload', formData);
-  //     console.log('Upload bem sucedido:', response);
-  //     fetchImage(); // Atualiza a imagem após o upload
-  //   } catch (error) {
-  //     console.error('Erro ao fazer upload da imagem:', error);
-  //   }
-  // };
-
   return (
     <ContainerSection>
       {patient && (
         <>
           <ContainerIntro>
-            <ImgProfile src={pacienteIcon} alt="paciente perfil" ></ImgProfile>
-          {/* <input type="file" onChange={(e) => setFile(e.target.files[0])} />
-
-      <button onClick={upload}>Upload</button> */}
+            <ImgProfile src={pacienteIcon} alt="paciente perfil"></ImgProfile>
             <ContainerInfos>
               <Name>
                 <h2>Nome Completo</h2>
@@ -108,10 +72,10 @@ const ProfileContainer = (patient) => {
                   <p>{patient.telefone}</p>
                 </Information>
                 {hasConsultation ? (
-              <p>O paciente tem consultas agendadas.</p>
-            ) : (
-              <p>O paciente não tem consultas agendadas.</p>
-            )}
+                  <p>O paciente tem consultas agendadas.</p>
+                ) : (
+                  <p>O paciente não tem consultas agendadas.</p>
+                )}
               </Data>
             </ContainerInfos>
           </ContainerIntro>
@@ -122,7 +86,6 @@ const ProfileContainer = (patient) => {
             <p>{patient.observacao}</p>
           </ContainerGoal>
           <ContainerGrid>
-           
             <ContainerBlocks>
               <ContainerTitleImg>
                 <h2>Histórico Familiar de Doenças</h2>

@@ -5,59 +5,47 @@ class WeightChart extends React.Component {
   constructor(props) {
     super(props);
 
+    // Inicialmente, o estado é definido com uma estrutura de dados vazia
     this.state = {
-      series: [{
-        name: 'Peso',
-        data: [110, 108, 104, 100, 99, 94, 100, 97, 95, 94]
-      }],
+      series: [{ name: 'Peso', data: [] }],
       options: {
-        chart: {
-          type: 'line',
-          events: {
-            click: function(chart, w, e) {
-              // console.log(chart, w, e)
-            }
-          }
-        },
-        plotOptions: {
-          bar: {
-            columnWidth: '70%', // Define a largura das barras
-            distributed: true,
-            barHeight: '100%'
-          }
-        },
-        dataLabels: {
-          enabled: false
-        },
-        legend: {
-          show: false
-        },
-        xaxis: {
-          categories: [
-            'Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out'
-          ],
-          labels: {
-            style: {
-              fontSize: '12px'
-            }
-          }
-        },
-        responsive: [{
-          breakpoint: 1000,
-          options: {
-            chart: {
-              width: '100%'
-            }
-          }
-        }]
+        chart: { type: 'line' },
+        dataLabels: { enabled: false },
+        xaxis: { categories: [], labels: { style: { fontSize: '12px' } } },
+        responsive: [
+          { breakpoint: 1000, options: { chart: { width: '100%' } } },
+        ],
       },
     };
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.historyData !== this.props.historyData) {
+      const historyData = Array.isArray(this.props.historyData)
+        ? this.props.historyData
+        : [];
+      const dates = historyData.map((entry) =>
+        new Date(entry.data_registro).toLocaleDateString(),
+      );
+      const weights = historyData.map((entry) => entry.peso);
+
+      this.setState({
+        series: [{ name: 'Peso', data: weights }],
+        options: { ...this.state.options, xaxis: { categories: dates } },
+      });
+    }
   }
 
   render() {
     return (
       <div style={{ width: '100%' }}>
-        <ReactApexChart options={this.state.options} series={this.state.series} type="line" height={350} width={550}/>
+        <ReactApexChart
+          options={this.state.options}
+          series={this.state.series}
+          type="line"
+          height={350}
+          width={550}
+        />
       </div>
     );
   }

@@ -73,7 +73,6 @@ const ConsultationForm = () => {
       )
       .then((response) => {
         setConsultations(response.data);
-        console.log('>>>', response.data);
       })
       .catch((error) => {
         console.error('Error fetching consultations:', error);
@@ -129,7 +128,6 @@ const ConsultationForm = () => {
       ...formData,
       horaConsulta: hour,
     });
-    console.log('/>>', hour);
   };
   const handleSubmit = async (e) => {
     e.preventDefault();

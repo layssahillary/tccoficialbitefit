@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import {
   ContainerSection,
   ContainerTitleImg,
@@ -19,8 +21,8 @@ import {
   ContainerButton,
 } from './DashboardContainer.styles';
 
-import Chart from './ChartPeso.jsx';
-import ChartGordura from './ChartGordura.jsx';
+import WeightChart from './ChartPeso.jsx';
+import BodyFatChart from './ChartGordura.jsx';
 import {
   calcularIdade,
   calcularTMB,
@@ -39,18 +41,45 @@ import { SaveButton } from '../../../../Button/SaveButton/SaveButton.jsx';
 import { CancelButton } from '../../../../Button/CancelButton/CancelButton.jsx';
 const DashboardContainer = (patient) => {
   const [editMode, setEditMode] = useState(false);
-  const [editedData, setEditedData] = useState(null);
+  const [editedData, setEditedData] = useState(patient || {});
+  const [patientHistory, setPatientHistory] = useState([]);
+  const pacienteId = JSON.parse(localStorage.getItem('user')).id;
 
-  const idade = calcularIdade(patient.dataNascimento);
-  const tmb = calcularTMB(patient.peso, patient.altura, idade, patient.genero);
+  useEffect(() => {
+    const fetchPatientHistory = async () => {
+      try {
+        const response = await fetch(
+          `http://localhost:8800/patient/getPatientEvolutionHistory/${pacienteId}`,
+        );
+        if (response.ok) {
+          const data = await response.json();
+          setPatientHistory(data);
+        } else {
+          toast.error('Erro ao buscar histórico do paciente');
+        }
+      } catch (error) {
+        toast.error('Erro ao fazer a requisição');
+      }
+    };
+
+    if (patient) {
+      fetchPatientHistory();
+    }
+  }, [patient, pacienteId]);
+
+  const idade = patient ? calcularIdade(patient.dataNascimento) : '';
+  const tmb = patient
+    ? calcularTMB(patient.peso, patient.altura, idade, patient.genero)
+    : '';
+
+  // O resto do código segue aqui...
 
   const handleEdit = () => {
     setEditMode(true);
-    setEditedData(patient);
   };
 
   const handleCancel = () => {
-    setEditedData(null);
+    setEditedData({ ...patient });
     setEditMode(false);
   };
 
@@ -59,13 +88,29 @@ const DashboardContainer = (patient) => {
     setEditedData({ ...editedData, [name]: value });
   };
 
-  const handleSave = () => {
-    // Aqui você pode implementar a lógica para salvar os dados editados
-    console.log('Dados editados:', editedData);
-
-    // Após salvar os dados, você pode desativar o modo de edição
-    setEditMode(false);
-    setEditedData(null);
+  const handleSave = async () => {
+    try {
+      const response = await fetch(
+        `http://localhost:8800/patient/updatePatientById/${patient.paciente_id}`,
+        {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(editedData),
+        },
+      );
+      console.log(response, 'lllsssxxxddd');
+      if (response.ok) {
+        toast.success('Dados atualizados com sucesso!');
+        setEditMode(false);
+        setEditedData({ ...editedData });
+      } else {
+        toast.error('Erro ao atualizar os dados');
+      }
+    } catch (error) {
+      toast.error('Erro ao fazer a requisição');
+    }
   };
 
   return (
@@ -77,18 +122,15 @@ const DashboardContainer = (patient) => {
           <FirstRowContainer>
             <FirstRowBlocks>
               <ContainerTitleImg>
-                <ImgBlock
-                  src={iconAltura}
-                  alt="Icone historico familiar de doencas"
-                ></ImgBlock>
+                <ImgBlock src={iconAltura} alt="Altura" />
                 <h2>Altura</h2>
               </ContainerTitleImg>
               <DataContainer>
                 {editMode ? (
                   <InputField
                     type="text"
-                    name="nome"
-                    value={patient.altura}
+                    name="altura"
+                    value={editedData.altura}
                     onChange={handleChange}
                   />
                 ) : (
@@ -99,54 +141,39 @@ const DashboardContainer = (patient) => {
                 )}
               </DataContainer>
             </FirstRowBlocks>
+
             <FirstRowBlocks>
               <ContainerTitleImg>
-                <ImgBlock
-                  src={iconPeso}
-                  alt="Icone historico familiar de doencas"
-                ></ImgBlock>
+                <ImgBlock src={iconPeso} alt="Peso" />
                 <h2>Peso</h2>
               </ContainerTitleImg>
               <DataContainer>
                 {editMode ? (
                   <InputField
                     type="text"
-                    name="nome"
-                    value={patient.peso}
+                    name="peso"
+                    value={editedData.peso}
                     onChange={handleChange}
                   />
                 ) : (
                   <>
-                    {' '}
                     <p>{patient.peso}</p>
                     <p>Kg</p>
                   </>
                 )}
               </DataContainer>
             </FirstRowBlocks>
+
             <FirstRowBlocks>
               <ContainerTitleImg>
-                <ImgBlock
-                  src={iconCalorias}
-                  alt="Icone historico familiar de doencas"
-                ></ImgBlock>
-                <h2>Taxa Metabolica</h2>
+                <ImgBlock src={iconCalorias} alt="Taxa Metabólica" />
+                <h2>Taxa Metabólica</h2>
               </ContainerTitleImg>
               <DataContainer>
-                {editMode ? (
-                  <InputField
-                    type="text"
-                    name="nome"
-                    value={tmb}
-                    onChange={handleChange}
-                  />
-                ) : (
-                  <>
-                    {' '}
-                    <p>{tmb}</p>
-                    <p>Kcal</p>
-                  </>
-                )}
+                <>
+                  <p>{tmb}</p>
+                  <p>Kcal</p>
+                </>
               </DataContainer>
             </FirstRowBlocks>
           </FirstRowContainer>
@@ -155,53 +182,22 @@ const DashboardContainer = (patient) => {
               <ContainerSecondRowTitleImg>
                 <ImgBlock
                   src={iconGorduraCorporal}
-                  alt="Icone historico familiar de doencas"
-                ></ImgBlock>
+                  alt="Ícone gordura corporal"
+                />
                 <h2>% Gordura corporal</h2>
               </ContainerSecondRowTitleImg>
               <DataContainer>
-                {editMode ? (
-                  <InputField
-                    type="text"
-                    name="nome"
-                    value={patient.altura}
-                    onChange={handleChange}
-                  />
-                ) : (
-                  <>
-                    {' '}
-                    <p>
-                      <ChartGordura />
-                    </p>
-                  </>
-                )}
+                <BodyFatChart historyData={patientHistory} />
               </DataContainer>
             </SecondRowBlocks>
 
             <SecondRowBlocks>
               <ContainerSecondRowTitleImg>
-                <ImgBlock
-                  src={iconPesoInicial}
-                  alt="Icone historico familiar de doencas"
-                ></ImgBlock>
+                <ImgBlock src={iconPesoInicial} alt="Ícone evolução de peso" />
                 <h2>Evolução de peso</h2>
               </ContainerSecondRowTitleImg>
               <DataContainer>
-                {editMode ? (
-                  <InputField
-                    type="text"
-                    name="nome"
-                    value={patient.altura}
-                    onChange={handleChange}
-                  />
-                ) : (
-                  <>
-                    {' '}
-                    <p>
-                      <Chart />
-                    </p>
-                  </>
-                )}
+                <WeightChart historyData={patientHistory} />
               </DataContainer>
             </SecondRowBlocks>
           </SecondRowContainer>
@@ -215,20 +211,8 @@ const DashboardContainer = (patient) => {
                 <h2>IMC</h2>
               </ContainerTitleImg>
               <DataContainer>
-                {editMode ? (
-                  <InputField
-                    type="text"
-                    name="nome"
-                    value={patient.altura}
-                    onChange={handleChange}
-                  />
-                ) : (
-                  <>
-                    {' '}
-                    <p>28.67</p>
-                    <p>%</p>
-                  </>
-                )}
+                <p>28.67</p>
+                <p>%</p>
               </DataContainer>
             </ThirdRowBlocks>
             <ThirdRowBlocks>
@@ -240,7 +224,6 @@ const DashboardContainer = (patient) => {
                 <h2 style={{ color: 'green' }}>Resultado IMC</h2>
               </ContainerTitleImg>
               <DataContainer>
-                
                 <p>{patient.nome} esta com IMC NORMAL</p>
               </DataContainer>
             </ThirdRowBlocks>
@@ -330,12 +313,10 @@ const DashboardContainer = (patient) => {
             </ImgPContainer>
           </FourthRowContainer>
           {editMode ? (
-            <>
-              <ContainerButton>
-                <CancelButton handleCancel={handleCancel} />
-                <SaveButton handleSave={handleSave} />
-              </ContainerButton>
-            </>
+            <ContainerButton>
+              <CancelButton handleCancel={handleCancel} />
+              <SaveButton handleSave={handleSave} />{' '}
+            </ContainerButton>
           ) : (
             <ContainerButton>
               <EditButton handleEdit={handleEdit} />
