@@ -1,1 +1,15 @@
 node_modules/
+combined.log
+arror.log
+clover.xml
+coverage-final.json
+iconv.info
+base.css
+block-navigation.js
+favicon.png
+index.html
+prettify.css
+prettify.js
+sort-arrow-sprite.png
+sorter.js
+coverage/  # Se os arquivos estiverem dentro da pasta de coverage

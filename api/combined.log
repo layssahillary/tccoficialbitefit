@@ -3181,3 +3181,1204 @@
 {"level":"info","message":"getDietaByPacienteIdController: Dietas obtidas com sucesso"}
 {"level":"info","message":"getDietaByPacienteIdService"}
 {"level":"info","message":"getDietaByPacienteIdController: Dietas obtidas com sucesso"}
+{"level":"info","message":"LoginController"}
+{"level":"info","message":"Usuário theodorosampaio@hotmail.com fez login"}
+{"level":"info","message":"LoginController: Login realizado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getDietaByPacienteIdService"}
+{"level":"info","message":"getDietaByPacienteIdController: Dietas obtidas com sucesso"}
+{"level":"info","message":"getDietaByPacienteIdService"}
+{"level":"info","message":"getDietaByPacienteIdController: Dietas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getDietaByPacienteIdService"}
+{"level":"info","message":"getDietaByPacienteIdController: Dietas obtidas com sucesso"}
+{"level":"info","message":"getDietaByPacienteIdService"}
+{"level":"info","message":"getDietaByPacienteIdController: Dietas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"LoginController"}
+{"level":"error","message":"Usuário não encontrado"}
+{"level":"error","message":"Usuário não encontrado"}
+{"level":"info","message":"LoginController"}
+{"level":"info","message":"Usuário theodorosampaio@hotmail.com fez login"}
+{"level":"info","message":"LoginController: Login realizado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"LoginController"}
+{"level":"info","message":"Usuário theodorosampaio@hotmail.com fez login"}
+{"level":"info","message":"LoginController: Login realizado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"Update Patient Controller called"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente deletado com sucesso"}
+{"level":"info","message":"Update Patient Controller called"}
+{"level":"info","message":"Update Patient Controller called"}
+{"level":"info","message":"Update Patient Controller called"}
+{"level":"info","message":"Update Patient Controller called"}
+{"level":"info","message":"Update Patient Controller called"}
+{"level":"info","message":"LoginController"}
+{"level":"info","message":"Usuário ana@example.com fez login"}
+{"level":"info","message":"LoginController: Login realizado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"error","message":"ER_BAD_FIELD_ERROR: Unknown column 'data_alteracao' in 'order clause'"}
+{"level":"error","message":"ER_BAD_FIELD_ERROR: Unknown column 'data_alteracao' in 'order clause'"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"Update Patient Controller called"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"Update Patient Controller called"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"Update Patient Controller called"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getDietaByPacienteIdService"}
+{"level":"info","message":"getDietaByPacienteIdController: Dietas obtidas com sucesso"}
+{"level":"info","message":"getDietaByPacienteIdService"}
+{"level":"info","message":"getDietaByPacienteIdController: Dietas obtidas com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getDietaByPacienteIdService"}
+{"level":"info","message":"getDietaByPacienteIdController: Dietas obtidas com sucesso"}
+{"level":"info","message":"getDietaByPacienteIdService"}
+{"level":"info","message":"getDietaByPacienteIdController: Dietas obtidas com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientByIdController"}
+{"level":"info","message":"getPatientByIdService"}
+{"level":"info","message":"getPatientByIdService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientByIdController: Paciente recuperado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController"}
+{"level":"info","message":"getPatientEvolutionHistoryService"}
+{"level":"info","message":"getPatientEvolutionHistoryService: Pacientes recuperados com sucesso"}
+{"level":"info","message":"getPatientEvolutionHistoryController: Paciente deletado com sucesso"}
+{"level":"info","message":"getConsultasByPacienteIdController: Consultas obtidas com sucesso"}

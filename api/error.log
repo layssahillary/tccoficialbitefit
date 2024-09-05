@@ -4,3 +4,17 @@
 {"level":"error","message":"O email já está em uso"}
 {"level":"error","message":"patientRegisterService: O email já está em uso"}
 {"level":"error","message":"O email já está em uso"}
+{"level":"error","message":"Usuário não encontrado"}
+{"level":"error","message":"Usuário não encontrado"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_NO_SUCH_TABLE: Table 'crud.historico_evolucao_paciente' doesn't exist"}
+{"level":"error","message":"ER_BAD_FIELD_ERROR: Unknown column 'data_alteracao' in 'order clause'"}
+{"level":"error","message":"ER_BAD_FIELD_ERROR: Unknown column 'data_alteracao' in 'order clause'"}
