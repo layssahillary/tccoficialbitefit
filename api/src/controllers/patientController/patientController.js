@@ -3,6 +3,8 @@ import { patientRegisterService } from '../../services/patientService/patientReg
 import { deletePatientByIdService } from '../../services/patientService/deletePatientByIdService.js';
 import { getPatientByIdService } from '../../services/patientService/getPatientByIdService.js';
 import { updatePatientByIdService } from '../../services/patientService/updatePatientByIdService.js';
+import { getPatientEvolutionHistoryService } from '../../services/patientService/getPatientEvolutionHistoryService.js';
+
 
 import winston from 'winston';
 const logger = winston.createLogger({
@@ -64,7 +66,7 @@ export const getPatientById = async (req, res) => {
 
   try {
     const patients = await getPatientByIdService(pacienteId);
-    logger.info('getPatientByIdController: Paciente deletado com sucesso');
+    logger.info('getPatientByIdController: Paciente recuperado com sucesso');
     res.status(200).json(patients);
   } catch (err) {
     logger.error(err.message);
@@ -73,16 +75,30 @@ export const getPatientById = async (req, res) => {
 };
 
 export const updatePatientById = async (req, res) => {
-  logger.info('updatePatientByIdController');
+  logger.info('Update Patient Controller called');
   const pacienteId = req.params.id;
   const newData = req.body;
 
   try {
     const paciente = await updatePatientByIdService(pacienteId, newData);
-    logger.info('updatePatientByIdController: Patiente atualizado com sucesso');
     res.status(200).json(paciente);
   } catch (err) {
     logger.error(err.message);
     res.status(500).json(err.message);
   }
 };
+
+export const getPatientEvolutionHistory = async (req, res) => {
+  logger.info('getPatientEvolutionHistoryController');
+  const pacienteId = req.params.id;
+
+  try {
+    const patients = await getPatientEvolutionHistoryService(pacienteId);
+    logger.info('getPatientEvolutionHistoryController: Paciente deletado com sucesso');
+    res.status(200).json(patients);
+  } catch (err) {
+    logger.error(err.message);
+    res.status(500).json(err.message);
+  }
+};
+

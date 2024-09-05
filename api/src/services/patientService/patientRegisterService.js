@@ -46,7 +46,7 @@ export const patientRegisterService = (patient) => {
       }
 
       const q =
-        'INSERT INTO paciente(nome, email, dataNascimento, altura, peso, senha, confirmar_senha, objetivo, nutricionista_id, paciente_img, genero, telefone, observacao, historico_familiar_doencas, doencas_cronicas, medicamentos_em_uso, exames_de_sangue_relevantes, alergia, restricao_alimentar, habitos_alimentares, frequencia_exercicio_semanal, circunferencia_bracos, circunferencia_cintura, circunferencia_quadril, circunferencia_pernas) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)';
+        'INSERT INTO paciente(nome, email, dataNascimento, altura, peso, senha, confirmar_senha, objetivo, nutricionista_id, paciente_img, genero, telefone, observacao, historico_familiar_doencas, doencas_cronicas, medicamentos_em_uso, exames_de_sangue_relevantes, alergia, restricao_alimentar, habitos_alimentares, frequencia_exercicio_semanal, circunferencia_bracos, circunferencia_cintura, circunferencia_quadril, circunferencia_pernas, gordura_corporal) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)';
       const values = [
         patient.nome,
         patient.email,
@@ -73,6 +73,7 @@ export const patientRegisterService = (patient) => {
         patient.circunferencia_cintura,
         patient.circunferencia_quadril,
         patient.circunferencia_pernas,
+        patient.gordura_corporal
       ];
 
       db.query(q, values, (err) => {
