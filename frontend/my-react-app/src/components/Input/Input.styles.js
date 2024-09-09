@@ -18,7 +18,7 @@ export const Label = styled.label`
 
 export const InputWrapper = styled.div`
   position: relative;
-  width: fit-content;
+  width: 100%; 
 `;
 
 const Input = styled.input`
@@ -43,9 +43,14 @@ const Input = styled.input`
   }
 `;
 
-export const PasswordInputStyled = styled(Input).attrs({
-  type: 'password',
-})``;
+export const PasswordInputStyled = styled.input`
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+`;
+
 
 export const IconWrapper = styled.div`
   position: absolute;
@@ -54,6 +59,7 @@ export const IconWrapper = styled.div`
   transform: translateY(-50%);
   cursor: pointer;
   color: #828282;
+  z-index: 1;
 `;
 
 export const EmailInputStyled = styled(Input).attrs({

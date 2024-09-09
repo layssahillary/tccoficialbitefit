@@ -18,7 +18,7 @@ import {
   CheckboxLabel,
   SelectStyled,
   IconWrapper,
-  InputWrapper
+  InputWrapper,
 } from './Input.styles';
 
 export const EmailInput = ({ label, placeholder, name, value, onChange }) => {
@@ -36,7 +36,13 @@ export const EmailInput = ({ label, placeholder, name, value, onChange }) => {
   );
 };
 
-export const PasswordInput = ({ label, placeholder, name, value, onChange }) => {
+export const PasswordInput = ({
+  label,
+  placeholder,
+  name,
+  value,
+  onChange,
+}) => {
   const [showPassword, setShowPassword] = useState(false);
 
   const toggleShowPassword = () => {
@@ -47,6 +53,7 @@ export const PasswordInput = ({ label, placeholder, name, value, onChange }) => 
     <ContainerInput>
       <Label htmlFor={name}>{label}</Label>
       <InputWrapper>
+        {/* Alterna entre 'password' e 'text' baseado no estado showPassword */}
         <PasswordInputStyled
           type={showPassword ? 'text' : 'password'}
           placeholder={placeholder}
@@ -54,6 +61,7 @@ export const PasswordInput = ({ label, placeholder, name, value, onChange }) => 
           value={value}
           onChange={onChange}
         />
+        {/* Ícone de olho para alternar a visibilidade */}
         <IconWrapper onClick={toggleShowPassword}>
           {showPassword ? <FaEyeSlash /> : <FaEye />}
         </IconWrapper>
@@ -92,16 +100,18 @@ export const DateInput = ({ label, placeholder, name, value, onChange }) => {
   );
 };
 
-export const SelectInput = ({ label, placeholder, name, value, onChange, options }) => {
+export const SelectInput = ({
+  label,
+  placeholder,
+  name,
+  value,
+  onChange,
+  options,
+}) => {
   return (
     <ContainerInput>
       <Label htmlFor="select">{label}</Label>
-      <SelectStyled
-        id={name}
-        name={name}
-        value={value}
-        onChange={onChange}
-      >
+      <SelectStyled id={name} name={name} value={value} onChange={onChange}>
         {/* <option value="" disabled>{placeholder}</option>
         {options.map((option) => (
           <option key={option.value} value={option.value}>{option.label}</option>
