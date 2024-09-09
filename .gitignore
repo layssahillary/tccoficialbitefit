@@ -12,4 +12,5 @@ prettify.css
 prettify.js
 sort-arrow-sprite.png
 sorter.js
-coverage/  # Se os arquivos estiverem dentro da pasta de coverage
+coverage/  
+error.log

@@ -56,21 +56,21 @@ const InitialPageView = () => {
           </PhraseArticleP>
         </ContainerArticleMid>
         <ContainerArticleEnd>
-          <ContainerCard href="/login">
+          <ContainerCard href="/pacientes">
             <ContainerIcon src={pacientesIcon} alt="Gradient" />
             <ContainerTitle>Paciente</ContainerTitle>
             <ContainerPhrase>
             Explore seus pacientes e acompanhe seu progresso nutricional.
             </ContainerPhrase>
           </ContainerCard>
-          <ContainerCard href="/login">
+          <ContainerCard href="/consultas">
             <ContainerIcon src={consultaIcon} alt="Gradient" />
             <ContainerTitle>Consulta</ContainerTitle>
             <ContainerPhrase>
             Agende consultas e otimize sua jornada de nutrição.
             </ContainerPhrase>
           </ContainerCard>
-          <ContainerCard href="/login">
+          <ContainerCard href="/perfilNutricionista">
             <ContainerIcon src={perfilIcon} alt="Gradient" />
             <ContainerTitle>Perfil</ContainerTitle>
             <ContainerPhrase>
