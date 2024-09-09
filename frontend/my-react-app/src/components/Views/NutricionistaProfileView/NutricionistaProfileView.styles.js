@@ -280,6 +280,10 @@ export const ContainerLinks = styled.div`
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     background-color: #ededee;
   }
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const InputField = styled.input`
@@ -312,16 +316,30 @@ export const Weekday = styled.div`
   padding: 10px;
   margin-right: 5px;
   border-radius: 10px;
-  background-color: ${({ isWorkingDay }) =>
-    isWorkingDay ? '#7066FF' : 'transparent'};
-  color: ${({ isWorkingDay }) => (isWorkingDay ? 'white' : 'black')};
-  cursor: pointer;
+  background-color: ${({ isWorkingDay, isSelected, editMode }) =>
+    editMode
+      ? isSelected
+        ? '#d3d3d3' // Cinza claro no modo de edição
+        : 'transparent'
+      : isWorkingDay
+      ? '#7066FF' // Roxo no modo de visualização
+      : 'transparent'};
+  color: ${({ isWorkingDay, isSelected, editMode }) =>
+    editMode
+      ? isSelected
+        ? 'black' // Cor preta no modo de edição
+        : 'black'
+      : isWorkingDay
+      ? 'white' // Cor branca no modo de visualização
+      : 'black'};
+  cursor: ${({ editMode }) => (editMode ? 'pointer' : 'default')};
 
   &:hover {
-    background-color: ${({ isWorkingDay }) =>
-      isWorkingDay ? '#7066FF' : '#f0f0f0'};
+    background-color: ${({ isSelected, editMode }) =>
+      editMode && !isSelected ? '#f0f0f0' : ''}; // Somente no modo de edição
   }
 `;
+
 
 export const ContainerButton = styled.div`
   display: flex;

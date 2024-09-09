@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { format } from 'date-fns';
 import axios from 'axios';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import {
   ContainerSection,
   ContainerIntro,
@@ -47,8 +49,6 @@ const ProfileContainer = () => {
   const [selectedDays, setSelectedDays] = useState([]);
   const user = JSON.parse(localStorage.getItem('user'));
   useEffect(() => {
-   
-
     if (user.tipo === 'paciente') {
       axios
         .get('http://localhost:8800/patient/getPatientById/' + user.id)
@@ -97,34 +97,56 @@ const ProfileContainer = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+    // Verifica se o nome é dataNascimento para formatar corretamente
     const newValue =
-      name === 'dataNascimento' ? format(new Date(value), 'dd-MM-yyyy') : value;
+      name === 'dataNascimento' ? format(new Date(value), 'yyyy-MM-dd') : value;
+
+    // Verifica se o estado está sendo atualizado corretamente
+    console.log(`Atualizando ${name} para:`, newValue);
+
     setEditedData({ ...editedData, [name]: newValue });
   };
 
   const handleSave = () => {
     const formattedDataNascimento = format(
       new Date(editedData.dataNascimento),
-      'dd-MM-yyyy',
+      'yyyy-MM-dd',
     );
+
+    const instagramUrl = editedData.instagram.startsWith(
+      'https://www.instagram.com/in/',
+    )
+      ? editedData.instagram
+      : `https://www.instagram.com/in/${editedData.instagram}`;
+
+    // Verifica e formata o campo do LinkedIn
+    const linkedinUrl = editedData.linkedin.startsWith(
+      'https://www.linkedin.com/in/',
+    )
+      ? editedData.linkedin
+      : `https://www.linkedin.com/in/${editedData.linkedin}`;
+
     const dataToSave = {
       ...editedData,
       dataNascimento: formattedDataNascimento,
-      diasSemanas: selectedDays.join(','), // Converter array de dias em string separada por vírgula
+      linkedin: linkedinUrl,
+      instagram: instagramUrl, // Adiciona o link formatado
+      diasSemanas: selectedDays.join(','), // Converte os dias selecionados em string
     };
 
     axios
       .put(
-        'http://localhost:8800/nutricionist/updateNutricionist/' +
+        'http://localhost:8800/nutricionist/updateNutricionistById/' +
           nutricionista.nutricionista_id,
         dataToSave,
       )
       .then(() => {
         setNutricionista(dataToSave);
         setEditMode(false);
+        toast.success('Perfil atualizado com sucesso!');
       })
       .catch((error) => {
-        console.error('Error updating nutricionista:', error);
+        console.error('Erro ao atualizar nutricionista:', error);
       });
   };
 
@@ -214,13 +236,21 @@ const ProfileContainer = () => {
                   <h3>Data Nascimento:</h3>
                   {editMode ? (
                     <InputField
-                      type="text"
+                      type="date"
                       name="dataNascimento"
-                      value={editedData.dataNascimento}
+                      value={format(
+                        new Date(editedData.dataNascimento),
+                        'yyyy-MM-dd',
+                      )} // Formata para yyyy-MM-dd
                       onChange={handleChange}
                     />
                   ) : (
-                    <p>{nutricionista.dataNascimento}</p>
+                    <p>
+                      {format(
+                        new Date(nutricionista.dataNascimento),
+                        'yyyy-MM-dd',
+                      )}
+                    </p> // Formata para yyyy-MM-dd
                   )}
                 </ContainerNascimento>
               </ContainerTwo>
@@ -271,11 +301,17 @@ const ProfileContainer = () => {
                     <Weekday
                       key={day}
                       isWorkingDay={nutricionista.diasSemanas.includes(day)}
+                      isSelected={selectedDays.includes(day)}
+                      editMode={editMode} // Adiciona o estado de edição aqui
+                      onClick={() => {
+                        if (editMode) toggleDay(day);
+                      }}
                     >
                       {day}
                     </Weekday>
                   ))}
                 </WeekdayContainer>
+
                 <ContainerHour>
                   <h3>Hora Inicio:</h3>
                   {editMode ? (
@@ -305,29 +341,42 @@ const ProfileContainer = () => {
               </FirstBlock>
               <SecondBlock>
                 <ContainerLinks>
-                  <img src={iconeInstagram} alt="Dias de atendimento:"></img>
-                  {editMode ? (
-                    <InputField
-                      type="text"
-                      name="instagram"
-                      value={editedData.instagram}
-                      onChange={handleChange}
-                    />
-                  ) : (
-                    <p>{nutricionista.instagram}</p>
-                  )}
-                </ContainerLinks>
-                <ContainerLinks>
-                  <img src={iconeLinkedin} alt="Dias de atendimento:"></img>
+                  <img src={iconeLinkedin} alt="LinkedIn"></img>
                   {editMode ? (
                     <InputField
                       type="text"
                       name="linkedin"
-                      value={editedData.linkedin}
+                      value={editedData.linkedin.split('/').pop()}
                       onChange={handleChange}
                     />
                   ) : (
-                    <p>{nutricionista.linkedin}</p>
+                    <a
+                      href={nutricionista.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {nutricionista.linkedin.split('/').pop()}
+                    </a>
+                  )}
+                </ContainerLinks>
+
+                <ContainerLinks>
+                  <img src={iconeInstagram} alt="Instagram"></img>
+                  {editMode ? (
+                    <InputField
+                      type="text"
+                      name="instagram"
+                      value={editedData.instagram.split('/').pop()}
+                      onChange={handleChange}
+                    />
+                  ) : (
+                    <a
+                      href={nutricionista.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {nutricionista.instagram.split('/').pop()}
+                    </a>
                   )}
                 </ContainerLinks>
               </SecondBlock>
@@ -343,15 +392,16 @@ const ProfileContainer = () => {
             </>
           ) : (
             <>
-            {user.tipo === 'nutricionista' && !editMode && (
-              <ContainerButton>
-                <EditButton handleEdit={handleEdit} />
-              </ContainerButton>
-            )}
+              {user.tipo === 'nutricionista' && !editMode && (
+                <ContainerButton>
+                  <EditButton handleEdit={handleEdit} />
+                </ContainerButton>
+              )}
             </>
           )}
         </>
       )}
+      <ToastContainer autoClose={3000} position="bottom-left" />
     </ContainerSection>
   );
 };

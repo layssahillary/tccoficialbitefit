@@ -58,14 +58,13 @@ export const deleteNutricionistById = async (req, res) => {
 };
 
 export const updateNutricionistById = async (req, res) => {
-  logger.info('updateNutricionistByIdController');
+  logger.info('Update Nutricionist Controller called');
   const nutricionistaId = req.params.id;
   const newData = req.body;
 
   try {
-    const nutricionista = await updateNutricionistByIdService(nutricionistaId, newData);
-    logger.info('updateNutricionistByIdController: Nutricionista atualizado com sucesso');
-    res.status(200).json(nutricionista);
+    const paciente = await updateNutricionistByIdService(nutricionistaId, newData);
+    res.status(200).json(paciente);
   } catch (err) {
     logger.error(err.message);
     res.status(500).json(err.message);

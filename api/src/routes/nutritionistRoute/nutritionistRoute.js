@@ -77,7 +77,7 @@ router.delete('/deleteNutricionistById/:id', deleteNutricionistById);
 
 /**
  * @openapi
- * /nutricionist/updateNutricionist/{id}:
+ * /nutricionist/updateNutricionistById/{id}:
  *   put:
  *     summary: Atualiza um nutricionista pelo ID
  *     description: Atualiza um nutricionista com os dados fornecidos pelo ID especificado.
@@ -112,7 +112,7 @@ router.delete('/deleteNutricionistById/:id', deleteNutricionistById);
  *           application/json:
  *             example: { message: 'Erro interno do servidor.' }
  */
-router.put('/updateNutricionist/:id', updateNutricionistById);
+router.put('/updateNutricionistById/:id', updateNutricionistById);
 
 
 export default router;

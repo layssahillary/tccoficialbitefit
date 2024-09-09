@@ -13,7 +13,6 @@ const NutritionistUpdateSchema = {
     especialidade: { type: 'string', maxLength: 100 },
     endereco: { type: 'string', maxLength: 100 },
     cpf: { type: 'string', maxLength: 100 },
-    nutricionista_img: { type: 'string' }, // Altere para o tipo correto, dependendo de como você lida com a imagem
     dataNascimento: { type: 'string', format: 'date' },
     instagram: { type: 'string', maxLength: 100 },
     linkedin: { type: 'string', maxLength: 100 },
