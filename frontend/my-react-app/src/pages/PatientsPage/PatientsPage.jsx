@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
-import PatientsPageView from '../../components/Views/PatientsPageView/PateintsPageView';
+import PatientsPageView from '../../components/Views/PatientsPageView/PatientsPageView';
 
 const PatientsPage = () => {
   return (
