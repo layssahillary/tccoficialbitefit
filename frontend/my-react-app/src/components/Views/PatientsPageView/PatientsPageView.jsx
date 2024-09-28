@@ -144,7 +144,7 @@ const PatientsPageView = () => {
                         paddingRight: '40px',
                       }}
                     >
-                      <Link to={`/perfilPaciente/${patient.paciente_id}`}>
+                      <Link to={`/perfilPaciente/${patient.paciente_id}/profile`}>
                         <IconsButton>
                           <EditIcone src={IconPerfil} />
                         </IconsButton>
