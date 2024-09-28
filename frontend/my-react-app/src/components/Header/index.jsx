@@ -53,7 +53,7 @@ function Header() {
         <Logo src={logoBiteFit} alt="Logo" />
         <Lista>
           <NavItem>
-            <NavLink href="/initalPage">Inicio</NavLink>
+            <NavLink href="/initialPage">Inicio</NavLink>
           </NavItem>
 
           {user.tipo === 'nutricionista' ? (
@@ -73,7 +73,7 @@ function Header() {
               {patients.map((patient) => (
                 <>
                   <NavItem key={patient.paciente_id}>
-                    <NavLink href={`/perfilPaciente/${patient.paciente_id}`}>
+                    <NavLink href={`/perfilPaciente/${patient.paciente_id}/profile`}>
                       Perfil
                     </NavLink>
                   </NavItem>
