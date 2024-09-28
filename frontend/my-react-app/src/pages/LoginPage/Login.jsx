@@ -57,7 +57,7 @@ const Login = () => {
         localStorage.setItem('user', JSON.stringify(response.data.user));
         toast.success('Login realizado com sucesso!');
         setTimeout(() => {
-          navigate('/initalPage');
+          navigate('/initialPage');
         }, 1500);
       } else {
         toast.error('Email ou senha inválidos!');
