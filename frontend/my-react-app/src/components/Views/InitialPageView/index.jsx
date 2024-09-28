@@ -32,6 +32,7 @@ import ilustracaoSection from '../../../imagens/ilustração/illustrationSection
 
 const InitialPageView = () => {
   const user = JSON.parse(localStorage.getItem('user'));
+  const nutricionista = user.tipo === 'nutricionista';
   return (
     <>
       <ContainerPage>
@@ -42,9 +43,16 @@ const InitialPageView = () => {
           <ContainerSectionChild>
             <Title>{`Bem-vindo, ${user?.nome}!`}</Title>
             <PhraseSection>
-            Explore uma abordagem inovadora para alimentação saudável, onde a facilidade e a criatividade se encontram em uma plataforma intuitiva e acessível.
+              Explore uma abordagem inovadora para alimentação saudável, onde a
+              facilidade e a criatividade se encontram em uma plataforma
+              intuitiva e acessível.
             </PhraseSection>
-            <RoundButton href="/nutricionistaCadastro" label={'Cadastrar Paciente'} />
+            {nutricionista ? (
+              <RoundButton
+                href="/nutricionistaCadastro"
+                label={'Cadastrar Paciente'}
+              />
+            ) : null}
           </ContainerSectionChild>
           <SectionImg src={ilustracaoSection} alt="Logo"></SectionImg>
         </ContainerSections>
@@ -52,34 +60,57 @@ const InitialPageView = () => {
           <PhraseArticleH2>Veja também</PhraseArticleH2>
           <DividerArticle></DividerArticle>
           <PhraseArticleP>
-          Amplie suas possibilidades e mergulhe mais fundo na plataforma Bitefit para descobrir recursos adicionais, dicas úteis e inspiração para alcançar seus objetivos de saúde e nutrição.
+            Amplie suas possibilidades e mergulhe mais fundo na plataforma
+            Bitefit para descobrir recursos adicionais, dicas úteis e inspiração
+            para alcançar seus objetivos de saúde e nutrição.
           </PhraseArticleP>
         </ContainerArticleMid>
         <ContainerArticleEnd>
-          <ContainerCard href="/pacientes">
-            <ContainerIcon src={pacientesIcon} alt="Gradient" />
-            <ContainerTitle>Paciente</ContainerTitle>
-            <ContainerPhrase>
-            Explore seus pacientes e acompanhe seu progresso nutricional.
-            </ContainerPhrase>
-          </ContainerCard>
           <ContainerCard href="/consultas">
             <ContainerIcon src={consultaIcon} alt="Gradient" />
             <ContainerTitle>Consulta</ContainerTitle>
             <ContainerPhrase>
-            Agende consultas e otimize sua jornada de nutrição.
+              Agende consultas e otimize sua jornada de nutrição.
             </ContainerPhrase>
           </ContainerCard>
-          <ContainerCard href="/perfilNutricionista">
-            <ContainerIcon src={perfilIcon} alt="Gradient" />
-            <ContainerTitle>Perfil</ContainerTitle>
-            <ContainerPhrase>
-            Explore seu perfil e todas as suas informações de uma forma simplificada
-            </ContainerPhrase>
-          </ContainerCard>
+          {nutricionista ? (
+            <ContainerCard href="/perfilNutricionista">
+              <ContainerIcon src={perfilIcon} alt="Gradient" />
+              <ContainerTitle>Perfil</ContainerTitle>
+              <ContainerPhrase>
+                Explore seu perfil e todas as suas informações de uma forma
+                simplificada
+              </ContainerPhrase>
+            </ContainerCard>
+          ) : (
+            <ContainerCard href={`/perfilPaciente/${user.paciente_id}/profile`}>
+              <ContainerIcon src={perfilIcon} alt="Gradient" />
+              <ContainerTitle>Perfil</ContainerTitle>
+              <ContainerPhrase>
+                Explore seu perfil e todas as suas informações de uma forma
+                simplificada
+              </ContainerPhrase>
+            </ContainerCard>
+          )}
+          {nutricionista ? (
+            <ContainerCard href="/pacientes">
+              <ContainerIcon src={pacientesIcon} alt="Gradient" />
+              <ContainerTitle>Paciente</ContainerTitle>
+              <ContainerPhrase>
+                Explore seus pacientes e acompanhe seu progresso nutricional.
+              </ContainerPhrase>
+            </ContainerCard>
+          ) : (
+            <ContainerCard href="/perfilNutricionista">
+              <ContainerIcon src={pacientesIcon} alt="Gradient" />
+              <ContainerTitle>Perfil Nutricionista</ContainerTitle>
+              <ContainerPhrase>
+                Caso precise de alguma informacao contate seu nutricionista
+              </ContainerPhrase>
+            </ContainerCard>
+          )}
         </ContainerArticleEnd>
       </ContainerPage>
-      
     </>
   );
 };
