@@ -300,9 +300,9 @@ const ProfileContainer = () => {
                   {['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB'].map((day) => (
                     <Weekday
                       key={day}
-                      isWorkingDay={nutricionista.diasSemanas.includes(day)}
+                      isWorkingDay={nutricionista.diasSemanas?.includes(day)} 
                       isSelected={selectedDays.includes(day)}
-                      editMode={editMode} // Adiciona o estado de edição aqui
+                      editMode={editMode}
                       onClick={() => {
                         if (editMode) toggleDay(day);
                       }}
@@ -346,7 +346,11 @@ const ProfileContainer = () => {
                     <InputField
                       type="text"
                       name="linkedin"
-                      value={editedData.linkedin.split('/').pop()}
+                      value={
+                        editedData.linkedin
+                          ? editedData.linkedin.split('/').pop()
+                          : ''
+                      }
                       onChange={handleChange}
                     />
                   ) : (
@@ -355,7 +359,9 @@ const ProfileContainer = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {nutricionista.linkedin.split('/').pop()}
+                      {nutricionista.linkedin
+                        ? nutricionista.linkedin.split('/').pop()
+                        : 'LinkedIn'}
                     </a>
                   )}
                 </ContainerLinks>
@@ -366,7 +372,11 @@ const ProfileContainer = () => {
                     <InputField
                       type="text"
                       name="instagram"
-                      value={editedData.instagram.split('/').pop()}
+                      value={
+                        editedData.instagram
+                          ? editedData.instagram.split('/').pop()
+                          : ''
+                      }
                       onChange={handleChange}
                     />
                   ) : (
@@ -375,7 +385,9 @@ const ProfileContainer = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {nutricionista.instagram.split('/').pop()}
+                      {nutricionista.instagram
+                        ? nutricionista.instagram.split('/').pop()
+                        : 'Instagram'}
                     </a>
                   )}
                 </ContainerLinks>

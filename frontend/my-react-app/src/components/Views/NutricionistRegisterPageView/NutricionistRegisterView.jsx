@@ -39,7 +39,6 @@ const NutricionistRegister = () => {
       ...formData,
       [name]: value,
     });
-    
   };
 
   const [errors, setErrors] = useState({});
@@ -47,39 +46,25 @@ const NutricionistRegister = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!checkRequiredFields(formData)) {
-      return toast.warn('Preencha todos os campos obrigatórios!');
-    }
-
+  
     const formErrors = Validate(formData);
     setErrors(formErrors);
 
-    if (Object.keys(formErrors).length > 0) {
-      return toast.warn('Preencha todos os campos corretamente!');
-    }
     try {
-      await axios.post('http://localhost:8800/nutricionist/nutricionistRegister', formData);
+      console.log('Dados enviados:', formData);
+      const response = await axios.post('http://localhost:8800/nutricionist/nutricionistRegister', formData);
+      console.log('Resposta da API:', response.data); 
+  
       toast.success('Nutricionista registrado com sucesso!');
       setTimeout(() => {
         navigate('/login');
       }, 3000);
     } catch (error) {
-      toast.error(error.response.data);
+      console.error('Erro ao registrar:', error.response ? error.response.data : error.message);
+      toast.error(error.response ? error.response.data : 'Erro ao registrar');
     }
   };
 
-  const checkRequiredFields = ({ nome, email, senha, confirmarSenha, crn }) => {
-    return !!(
-      nome &&
-      nome.trim() &&
-      email &&
-      email.trim() &&
-      senha &&
-      confirmarSenha &&
-      crn &&
-      crn.trim()
-    );
-  };
 
   return (
     <ContainerPrincipal>
