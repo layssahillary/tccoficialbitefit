@@ -5,7 +5,7 @@ class WeightChart extends React.Component {
   constructor(props) {
     super(props);
 
-    // Inicialmente, o estado é definido com uma estrutura de dados vazia
+  
     this.state = {
       series: [{ name: 'Peso', data: [] }],
       options: {
@@ -24,10 +24,12 @@ class WeightChart extends React.Component {
       const historyData = Array.isArray(this.props.historyData)
         ? this.props.historyData
         : [];
-      const dates = historyData.map((entry) =>
-        new Date(entry.data_registro).toLocaleDateString(),
-      );
-      const weights = historyData.map((entry) => entry.peso);
+        
+     
+      const sortedData = historyData.slice().sort((a, b) => new Date(a.data_registro) - new Date(b.data_registro));
+      
+      const dates = sortedData.map((entry) => new Date(entry.data_registro).toLocaleDateString());
+      const weights = sortedData.map((entry) => entry.peso);
 
       this.setState({
         series: [{ name: 'Peso', data: weights }],

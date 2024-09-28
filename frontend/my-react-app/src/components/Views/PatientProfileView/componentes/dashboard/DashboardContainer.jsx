@@ -43,13 +43,14 @@ const DashboardContainer = (patient) => {
   const [editMode, setEditMode] = useState(false);
   const [editedData, setEditedData] = useState(patient || {});
   const [patientHistory, setPatientHistory] = useState([]);
-  const pacienteId = JSON.parse(localStorage.getItem('user')).id;
+
+  console.log(patient);
 
   useEffect(() => {
     const fetchPatientHistory = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8800/patient/getPatientEvolutionHistory/${pacienteId}`,
+          `http://localhost:8800/patient/getPatientEvolutionHistory/${patient.paciente_id}`,
         );
         if (response.ok) {
           const data = await response.json();
@@ -65,7 +66,7 @@ const DashboardContainer = (patient) => {
     if (patient) {
       fetchPatientHistory();
     }
-  }, [patient, pacienteId]);
+  }, [patient]);
 
   const idade = patient ? calcularIdade(patient.dataNascimento) : '';
   const tmb = patient
@@ -100,11 +101,16 @@ const DashboardContainer = (patient) => {
           body: JSON.stringify(editedData),
         },
       );
-      console.log(response, 'lllsssxxxddd');
       if (response.ok) {
+        const updatedPatient = await response.json(); 
         toast.success('Dados atualizados com sucesso!');
         setEditMode(false);
-        setEditedData({ ...editedData });
+        setEditedData(updatedPatient); 
+
+       
+        setTimeout(() => {
+          window.location.reload(); 
+        }, 2000);
       } else {
         toast.error('Erro ao atualizar os dados');
       }
@@ -187,7 +193,18 @@ const DashboardContainer = (patient) => {
                 <h2>% Gordura corporal</h2>
               </ContainerSecondRowTitleImg>
               <DataContainer>
-                <BodyFatChart historyData={patientHistory} />
+                {editMode ? (
+                  <InputField
+                    type="text"
+                    name="gordura_corporal"
+                    value={editedData.gordura_corporal}
+                    onChange={handleChange}
+                  />
+                ) : (
+                  <>
+                    <BodyFatChart historyData={patientHistory} />
+                  </>
+                )}
               </DataContainer>
             </SecondRowBlocks>
 
@@ -197,7 +214,13 @@ const DashboardContainer = (patient) => {
                 <h2>Evolução de peso</h2>
               </ContainerSecondRowTitleImg>
               <DataContainer>
-                <WeightChart historyData={patientHistory} />
+                {editMode ? (
+                  <p>Não é possivel editar o grafico.</p>
+                ) : (
+                  <>
+                    <WeightChart historyData={patientHistory} />
+                  </>
+                )}
               </DataContainer>
             </SecondRowBlocks>
           </SecondRowContainer>
