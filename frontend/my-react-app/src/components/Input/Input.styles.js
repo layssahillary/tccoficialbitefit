@@ -44,7 +44,7 @@ const Input = styled.input`
 `;
 
 export const PasswordInputStyled = styled.input`
-  width: 100%;
+  width: 420px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
