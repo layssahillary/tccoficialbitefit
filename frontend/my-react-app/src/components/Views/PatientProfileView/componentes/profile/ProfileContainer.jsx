@@ -16,7 +16,7 @@ import {
   ImgProfile,
 } from './ProfileContainer.styles';
 
-import pacienteIcon from '../../../../../imagens/profile/patient.jpg';
+import pacienteIcon from '../../../../../imagens/profile/women.jpg';
 import iconealergias from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/alergias.png';
 import iconebancoSangue from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/banco-de-sangue.png';
 import iconebodyBuilding from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/body-building.png';
