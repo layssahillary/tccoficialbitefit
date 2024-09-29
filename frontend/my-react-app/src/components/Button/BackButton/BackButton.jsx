@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyledBackButton, Escrever } from './BackButton.styles';
-import  BackIcon  from '../../../imagens/icones/back.png'; // Importe o ícone aqui
+import  BackIcon  from '../../../imagens/icones/back.png';
 
 export const BackButton = ({ label,onClick }) => {
   return (

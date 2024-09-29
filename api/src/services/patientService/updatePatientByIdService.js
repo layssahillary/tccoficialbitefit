@@ -66,7 +66,7 @@ export const updatePatientByIdService = (patientId, updatedPatient) => {
       if (err) {
         reject(err);
       } else {
-        // Verificar se o peso ou gordura corporal foi atualizado
+
         if (updatedPatient.peso || updatedPatient.gordura_corporal) {
           const insertHistoricoQuery = `
             INSERT INTO paciente_historico (paciente_id, peso, gordura_corporal) 

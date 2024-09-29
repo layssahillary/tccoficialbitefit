@@ -13,7 +13,7 @@ export const deleteConsultaByIdService = (consultaId) => {
   return new Promise((resolve, reject) => {
     logger.info('deleteConsultaByIdService');
 
-    // Excluir consultas associadas ao consulta
+
     const deleteConsultasQ = 'DELETE FROM consulta WHERE consulta_id = ?';
     db.query(deleteConsultasQ, consultaId, (err, result) => {
       if (err) {
@@ -22,7 +22,7 @@ export const deleteConsultaByIdService = (consultaId) => {
         return;
       }
 
-      // Excluir o consulta
+
       const deleteConsultaQ = 'DELETE FROM consulta WHERE consulta_id = ?';
       db.query(deleteConsultaQ, consultaId, (err, result) => {
         if (err) {

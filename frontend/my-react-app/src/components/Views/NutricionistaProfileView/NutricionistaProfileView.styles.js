@@ -319,24 +319,24 @@ export const Weekday = styled.div`
   background-color: ${({ isWorkingDay, isSelected, editMode }) =>
     editMode
       ? isSelected
-        ? '#d3d3d3' // Cinza claro no modo de edição
+        ? '#d3d3d3'  
         : 'transparent'
       : isWorkingDay
-      ? '#7066FF' // Roxo no modo de visualização
+      ? '#7066FF' 
       : 'transparent'};
   color: ${({ isWorkingDay, isSelected, editMode }) =>
     editMode
       ? isSelected
-        ? 'black' // Cor preta no modo de edição
+        ? 'black' 
         : 'black'
       : isWorkingDay
-      ? 'white' // Cor branca no modo de visualização
+      ? 'white' 
       : 'black'};
   cursor: ${({ editMode }) => (editMode ? 'pointer' : 'default')};
 
   &:hover {
     background-color: ${({ isSelected, editMode }) =>
-      editMode && !isSelected ? '#f0f0f0' : ''}; // Somente no modo de edição
+      editMode && !isSelected ? '#f0f0f0' : ''}; 
   }
 `;
 

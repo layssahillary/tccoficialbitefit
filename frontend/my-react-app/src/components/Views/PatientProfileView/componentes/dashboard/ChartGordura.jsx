@@ -5,7 +5,7 @@ class BodyFatChart extends React.Component {
   constructor(props) {
     super(props);
 
-    // Inicialmente, o estado é definido com uma estrutura de dados vazia
+
     this.state = {
       series: [{ name: 'Gordura Corporal', data: [] }],
       options: {

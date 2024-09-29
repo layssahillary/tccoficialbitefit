@@ -292,6 +292,6 @@ export const Progress = styled.div`
   height: 100%;
   width: ${(props) => props.progress}%;
   background-color: #285430;
-  transition: width 0.5s ease-in-out; // Adiciona a animação de transição
+  transition: width 0.5s ease-in-out; 
 `;
 

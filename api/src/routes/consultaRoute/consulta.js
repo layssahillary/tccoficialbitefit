@@ -16,7 +16,7 @@ const router = express.Router();
  *   description: Operações relacionadas a consultas
  */
 
-// router
+
 /**
  * @openapi
  * /consultation/scheduleConsultation:

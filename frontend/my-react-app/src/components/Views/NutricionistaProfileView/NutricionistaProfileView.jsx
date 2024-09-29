@@ -97,13 +97,8 @@ const ProfileContainer = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    // Verifica se o nome é dataNascimento para formatar corretamente
     const newValue =
       name === 'dataNascimento' ? format(new Date(value), 'yyyy-MM-dd') : value;
-
-    // Verifica se o estado está sendo atualizado corretamente
-    console.log(`Atualizando ${name} para:`, newValue);
-
     setEditedData({ ...editedData, [name]: newValue });
   };
 
@@ -119,7 +114,7 @@ const ProfileContainer = () => {
       ? editedData.instagram
       : `https://www.instagram.com/in/${editedData.instagram}`;
 
-    // Verifica e formata o campo do LinkedIn
+
     const linkedinUrl = editedData.linkedin.startsWith(
       'https://www.linkedin.com/in/',
     )
@@ -130,8 +125,8 @@ const ProfileContainer = () => {
       ...editedData,
       dataNascimento: formattedDataNascimento,
       linkedin: linkedinUrl,
-      instagram: instagramUrl, // Adiciona o link formatado
-      diasSemanas: selectedDays.join(','), // Converte os dias selecionados em string
+      instagram: instagramUrl, 
+      diasSemanas: selectedDays.join(','),
     };
 
     axios
@@ -241,7 +236,7 @@ const ProfileContainer = () => {
                       value={format(
                         new Date(editedData.dataNascimento),
                         'yyyy-MM-dd',
-                      )} // Formata para yyyy-MM-dd
+                      )}
                       onChange={handleChange}
                     />
                   ) : (
@@ -250,7 +245,7 @@ const ProfileContainer = () => {
                         new Date(nutricionista.dataNascimento),
                         'yyyy-MM-dd',
                       )}
-                    </p> // Formata para yyyy-MM-dd
+                    </p> 
                   )}
                 </ContainerNascimento>
               </ContainerTwo>
@@ -300,7 +295,7 @@ const ProfileContainer = () => {
                   {['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB'].map((day) => (
                     <Weekday
                       key={day}
-                      isWorkingDay={nutricionista.diasSemanas?.includes(day)} 
+                      isWorkingDay={nutricionista.diasSemanas?.includes(day)}
                       isSelected={selectedDays.includes(day)}
                       editMode={editMode}
                       onClick={() => {

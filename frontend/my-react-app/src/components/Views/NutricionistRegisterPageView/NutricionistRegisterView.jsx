@@ -46,25 +46,26 @@ const NutricionistRegister = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-  
     const formErrors = Validate(formData);
     setErrors(formErrors);
 
     try {
-      console.log('Dados enviados:', formData);
-      const response = await axios.post('http://localhost:8800/nutricionist/nutricionistRegister', formData);
-      console.log('Resposta da API:', response.data); 
-  
+      const response = await axios.post(
+        'http://localhost:8800/nutricionist/nutricionistRegister',
+        formData,
+      );
       toast.success('Nutricionista registrado com sucesso!');
       setTimeout(() => {
         navigate('/login');
       }, 3000);
     } catch (error) {
-      console.error('Erro ao registrar:', error.response ? error.response.data : error.message);
+      console.error(
+        'Erro ao registrar:',
+        error.response ? error.response.data : error.message,
+      );
       toast.error(error.response ? error.response.data : 'Erro ao registrar');
     }
   };
-
 
   return (
     <ContainerPrincipal>

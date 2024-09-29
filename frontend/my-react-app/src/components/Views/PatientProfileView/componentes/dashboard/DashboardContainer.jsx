@@ -44,8 +44,6 @@ const DashboardContainer = (patient) => {
   const [editedData, setEditedData] = useState(patient || {});
   const [patientHistory, setPatientHistory] = useState([]);
 
-  console.log(patient);
-
   useEffect(() => {
     const fetchPatientHistory = async () => {
       try {
@@ -72,8 +70,6 @@ const DashboardContainer = (patient) => {
   const tmb = patient
     ? calcularTMB(patient.peso, patient.altura, idade, patient.genero)
     : '';
-
-  // O resto do código segue aqui...
 
   const handleEdit = () => {
     setEditMode(true);
@@ -102,14 +98,13 @@ const DashboardContainer = (patient) => {
         },
       );
       if (response.ok) {
-        const updatedPatient = await response.json(); 
+        const updatedPatient = await response.json();
         toast.success('Dados atualizados com sucesso!');
         setEditMode(false);
-        setEditedData(updatedPatient); 
+        setEditedData(updatedPatient);
 
-       
         setTimeout(() => {
-          window.location.reload(); 
+          window.location.reload();
         }, 2000);
       } else {
         toast.error('Erro ao atualizar os dados');

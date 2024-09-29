@@ -8,8 +8,8 @@ import {
   ConteinerLi,
   ConteinerItem,
   ListaLinks,
-} from './Footer.styles'; // Importando os estilos do rodapé
-import logoBiteFit from '../../imagens/logoBiteFit/logoBiteFit.svg'; // Importe a imagem da logo
+} from './Footer.styles'; 
+import logoBiteFit from '../../imagens/logoBiteFit/logoBiteFit.svg'; 
 
 const Footer = () => {
   return (

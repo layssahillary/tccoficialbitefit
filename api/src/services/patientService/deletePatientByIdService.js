@@ -13,7 +13,7 @@ export const deletePatientByIdService = (pacienteId) => {
   return new Promise((resolve, reject) => {
     logger.info('deletePatientByIdService');
 
-    // Excluir consultas associadas ao paciente
+
     const deleteConsultasQ = 'DELETE FROM consulta WHERE paciente_id = ?';
     db.query(deleteConsultasQ, pacienteId, (err, result) => {
       if (err) {
@@ -22,7 +22,6 @@ export const deletePatientByIdService = (pacienteId) => {
         return;
       }
 
-      // Excluir o paciente
       const deletePacienteQ = 'DELETE FROM paciente WHERE paciente_id = ?';
       db.query(deletePacienteQ, pacienteId, (err, result) => {
         if (err) {

@@ -1,4 +1,4 @@
-// Input.js
+
 import React, { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 

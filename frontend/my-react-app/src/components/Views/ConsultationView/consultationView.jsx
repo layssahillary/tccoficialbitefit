@@ -96,11 +96,11 @@ const ConsultationForm = () => {
         `http://localhost:8800/consultation/deleteConsultaById/${consultaId}`,
       );
       toast.success('Consulta excluida com sucesso!');
-      // Atualize a lista de consultas após a exclusão bem-sucedida
+     
       setConsultations(
         consultations.filter((consulta) => consulta.consulta_id !== consultaId),
       );
-      // Ocultar o modal de confirmação após a exclusão
+     
       setShowDeleteConfirmation(false);
     } catch (error) {
       return toast.warn('Ocorreu um erro ao excluir a consulta.');
@@ -132,7 +132,6 @@ const ConsultationForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
   
-    // Verifica se algum campo obrigatório não foi preenchido
     if (!formData.paciente_id || !formData.dataConsulta || !formData.horaConsulta ) {
       return toast.error('Por favor, preencha todos os campos obrigatórios.');
     }
@@ -164,13 +163,13 @@ const ConsultationForm = () => {
   const [showDeleteConfirmation, setShowDeleteConfirmation] = useState(false);
   const [consultaIdToDelete, setConsultaIdToDelete] = useState(null);
 
-  // Função para abrir o modal de confirmação de exclusão
+ 
   const handleOpenDeleteConfirmation = (consultaId) => {
     setConsultaIdToDelete(consultaId);
     setShowDeleteConfirmation(true);
   };
 
-  // Função para fechar o modal de confirmação de exclusão
+
   const handleCloseDeleteConfirmation = () => {
     setShowDeleteConfirmation(false);
   };
@@ -215,7 +214,7 @@ const ConsultationForm = () => {
                   }
                   dateFormat="dd/MM/yyyy"
                   placeholderText="Selecione a data da consulta"
-                  inline // Adicionando a propriedade inline aqui
+                  inline 
                 />
               </div>
             </DateContainer>
@@ -344,7 +343,7 @@ const ConsultationForm = () => {
             deleteText="Excluir"
             onCancel={handleCloseDeleteConfirmation}
             onDelete={() => handleDeleteConsulta(consultaIdToDelete)}
-            show={showDeleteConfirmation} // Passa a variável showDeleteConfirmation como prop
+            show={showDeleteConfirmation}  
           />
         )}
       </Table>

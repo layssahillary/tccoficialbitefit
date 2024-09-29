@@ -151,7 +151,7 @@ const PatientRegisterView = () => {
 
   const handleNextStep = () => {
     setStep(step + 1);
-    setProgress(progress + 50); // 33.33 para 3 steps
+    setProgress(progress + 50); 
   };
   
   const handlePrevStep = () => {

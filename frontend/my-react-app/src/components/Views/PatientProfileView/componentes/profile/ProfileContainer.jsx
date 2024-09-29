@@ -27,7 +27,7 @@ import iconenutricao from '../../../../../imagens/icones/iconesPatienteProfileVi
 import iconerestricao from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/restricao.png';
 
 const ProfileContainer = (patient) => {
-  const [hasConsultation, setHasConsultation] = useState(false); // Estado para armazenar se o paciente tem consulta agendada
+  const [hasConsultation, setHasConsultation] = useState(false); 
   const user = JSON.parse(localStorage.getItem('user'));
   const pacienteId = user.id;
 

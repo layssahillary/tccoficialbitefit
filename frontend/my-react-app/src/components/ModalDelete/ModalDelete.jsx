@@ -1,4 +1,4 @@
-// ModalDelete.jsx
+
 import React from 'react';
 import {
   Card,
@@ -9,7 +9,7 @@ import {
   SecondaryButton,
   PrimaryButton,
   ExitButton,
-  Overlay, // Importe o Overlay aqui
+  Overlay, 
 } from './ModalDelete.styles';
 
 const CardComponent = ({
