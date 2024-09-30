@@ -18,7 +18,6 @@ const logger = winston.createLogger({
 export const registerPatient = (req, res) => {
   logger.info('registerPatientController');
   const patient = req.body;
-
   patientRegisterService(patient)
     .then(() => {
       logger.info('registerPatientController: Paciente criado com sucesso');

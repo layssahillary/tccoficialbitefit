@@ -30,3 +30,2720 @@
 {"level":"error","message":"ER_BAD_FIELD_ERROR: Unknown column 'gordura_corporal' in 'field list'"}
 {"level":"error","message":"ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1"}
 {"level":"error","message":"ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to create patient"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to create patient"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to create patient"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'nome')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'nome')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'nome')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'nome')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'nome')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'nome')"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Failed to create patient"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to create patient"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"patientRegisterService: Todos os campos são obrigatórios"}
+{"level":"error","message":"Todos os campos são obrigatórios"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"WARN_DATA_TRUNCATED: Data truncated for column 'genero' at row 1"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to create patient"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to create patient"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to create patient"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar"}
+{"level":"error","message":"Erro ao agendar consulta"}
+{"level":"error","message":"Erro ao atualizar status da consulta"}
+{"level":"error","message":"Erro ao obter consultas pelo nutricionista"}
+{"level":"error","message":"Erro ao obter consultas pelo paciente"}
+{"level":"error","message":"Erro ao deletar consulta"}
+{"level":"error","message":"Erro ao realizar login"}
+{"level":"error","message":"Erro ao registrar dieta"}
+{"level":"error","message":"Erro ao atualizar status da dieta"}
+{"level":"error","message":"Erro ao registrar nutricionista"}
+{"level":"error","message":"Erro ao obter nutricionista"}
+{"level":"error","message":"Erro ao deletar nutricionista"}
+{"level":"error","message":"Erro ao atualizar nutricionista"}
+{"level":"error","message":"Erro ao obter dietas pelo paciente"}
+{"level":"error","message":"Erro ao deletar dieta"}
+{"level":"error","message":"Failed to fetch patients"}
+{"level":"error","message":"Failed to delete patient"}
+{"level":"error","message":"Failed to fetch patient"}
+{"level":"error","message":"Failed to update patient"}
+{"level":"error","message":"Failed to fetch patient evolution history"}
+{"level":"error","message":"Erro ao atualizar"}

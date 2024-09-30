@@ -12,18 +12,7 @@ const logger = winston.createLogger({
 export const patientRegisterService = (patient) => {
   return new Promise((resolve, reject) => {
     logger.info('patientRegisterService');
-    if (
-      (!patient.nome,
-      !patient.email,
-      !patient.senha,
-      !patient.confirmar_senha,
-      !patient.nutricionista_id)
-    ) {
-      logger.error('patientRegisterService: Todos os campos são obrigatórios');
-      reject(new Error('Todos os campos são obrigatórios'));
-      return;
-    }
-
+    
     if (patient.senha !== patient.confirmar_senha) {
       logger.error('As senhas não coincidem');
       reject(new Error('As senhas não coincidem'));
@@ -72,7 +61,7 @@ export const patientRegisterService = (patient) => {
         patient.circunferencia_bracos,
         patient.circunferencia_cintura,
         patient.circunferencia_quadril,
-        patient.circunferencia_pernas
+        patient.circunferencia_pernas,
       ];
 
       db.query(q, values, (err) => {

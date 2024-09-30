@@ -1,7 +1,7 @@
 import { nutritionistRegisterService } from '../../services/nutritionistService/nutritionistRegisterService.js';
 import { getNutricionistByIdService } from '../../services/nutritionistService/getNutricionistByIdService.js';
 import { deleteNutricionistByIdService } from '../../services/nutritionistService/deleteNutricionistByIdService.js';
-import { updateNutricionistByIdService } from '../../services/nutritionistService/updateNutricionistByIdService .js';
+import { updateNutricionistByIdService } from '../../services/nutritionistService/updateNutricionistByIdService.js';
 
 import winston from 'winston';
 const logger = winston.createLogger({

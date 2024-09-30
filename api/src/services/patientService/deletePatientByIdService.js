@@ -22,6 +22,7 @@ export const deletePatientByIdService = (pacienteId) => {
         return;
       }
 
+      // Excluir o paciente
       const deletePacienteQ = 'DELETE FROM paciente WHERE paciente_id = ?';
       db.query(deletePacienteQ, pacienteId, (err, result) => {
         if (err) {
