@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState} from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
@@ -33,8 +33,6 @@ const Login = () => {
     senha: '',
   });
 
-  const [user, setUser] = useState(null);
-  const token = useMemo(() => user?.token, [user]);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({

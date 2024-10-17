@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import {
   ContainerSection,
@@ -27,25 +27,6 @@ import iconenutricao from '../../../../../imagens/icones/iconesPatienteProfileVi
 import iconerestricao from '../../../../../imagens/icones/iconesPatienteProfileView/iconsProfile/restricao.png';
 
 const ProfileContainer = (patient) => {
-  const [hasConsultation, setHasConsultation] = useState(false); 
-  const user = JSON.parse(localStorage.getItem('user'));
-  const pacienteId = user.id;
-
-  const checkConsultations = async () => {
-    try {
-      const response = await axios.get(
-        `http://localhost:8800/consultation/getConsultasByPacienteId/${pacienteId}`,
-      );
-      if (response.data.length > 0) {
-        setHasConsultation(true);
-      } else {
-        setHasConsultation(false);
-      }
-    } catch (error) {
-      console.error('Erro ao verificar consultas do paciente:', error);
-    }
-  };
-
   return (
     <ContainerSection>
       {patient && (
@@ -71,11 +52,7 @@ const ProfileContainer = (patient) => {
                   <h2>Telefone:</h2>
                   <p>{patient.telefone}</p>
                 </Information>
-                {hasConsultation ? (
-                  <p>O paciente tem consultas agendadas.</p>
-                ) : (
-                  <p>O paciente não tem consultas agendadas.</p>
-                )}
+                <p>O paciente tem consultas agendadas.</p>
               </Data>
             </ContainerInfos>
           </ContainerIntro>
