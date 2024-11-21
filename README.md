@@ -13,8 +13,10 @@ A API foi desenvolvida com as seguintes dependências:
 - **Multer**: Para upload de arquivos, como imagens de perfil.
 - **MySQL**: Banco de dados para armazenamento de informações.
 - **Swagger**: Para documentação da API.
-- **Cors**: Para permitir requisições de diferentes origens.
 - **Winston**: Para logging.
+- **Multer**: formulários multipart/form-data
+- **Nodemon**: monitora alterações nos arquivos
+  
 
 ### Instalação
 
@@ -30,18 +32,6 @@ Para iniciar a API, utilize o comando:
 
 ```bash
 npm start
-```
-
-Para iniciar o serviço de imagens, utilize o comando:
-
-```bash
-npm run start-images
-```
-
-Para iniciar ambos os serviços simultaneamente, utilize o comando:
-
-```bash
-npm run start-all
 ```
 
 A API estará disponível em `http://localhost:8800`.
@@ -92,33 +82,20 @@ O projeto foi desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) e
 O backend foi organizado da seguinte maneira:
 
 - `index.js`: Arquivo principal que inicia a API.
-- `images.js`: Serviço responsável pelo gerenciamento de imagens.
+- `db.js`: Arquivo principal que configura o banco.
 - `routes/`: Diretório que contém as definições de rotas.
+- `services/`: Diretório que contém as definições de logicas.
 - `controllers/`: Diretório que contém a lógica de controle das rotas.
 - `models/`: Diretório que contém os modelos de dados.
-- `middleware/`: Diretório que contém middlewares utilizados na API.
+- `schemas/`: Diretório que contém os modelos de payloads.
 
 ### Frontend
 
 O frontend foi organizado da seguinte maneira:
 
-- `src/`: Diretório principal do código fonte.
+  - `src/`: Diretório principal do código fonte.
   - `components/`: Componentes reutilizáveis.
   - `pages/`: Páginas da aplicação.
   - `services/`: Serviços para comunicação com a API.
   - `styles/`: Estilos globais e temas.
   - `utils/`: Utilitários e funções auxiliares.
-
-## Contribuição
-
-Para contribuir com este projeto, siga as etapas abaixo:
-
-1. Faça um fork do projeto.
-2. Crie uma nova branch (`git checkout -b feature/nova-feature`).
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`).
-4. Faça um push para a branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob a licença ISC.
